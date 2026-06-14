@@ -1,0 +1,511 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa83da0904b856a418839ae2b277c16e, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9ec41bfc937ce34c8f9800c8314632bc
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 9ec41bfc937ce34c8f9800c8314632bc
+    GuidInternal: 
+    m_lastTime: -8584207692577449170
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a306ba57b6e71449b1e68c44f15ad0f3
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: a306ba57b6e71449b1e68c44f15ad0f3
+    GuidInternal: 
+    m_lastTime: -8584207692578622175
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a306ba57b6e71449b1e68c44f15ad0f3
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 46e8a1e2712a4240ab3fe6c282c72791
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 46e8a1e2712a4240ab3fe6c282c72791
+    GuidInternal: 
+    m_lastTime: -8584201574787509290
+    List:
+    - name: SwampyBogMusic
+      guid: f1c04f913b87e043bf753e67bdf3db49
+      id: 186958281
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 46e8a1e2712a4240ab3fe6c282c72791
+      - ElementName: SwampyBogMusic
+        ObjectType: 7
+        guid: f1c04f913b87e043bf753e67bdf3db49
+      Path: SoundBanks\Default Work Unit\SwampyBogMusic
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 80b0cdb1a46f7c479a4b5e5c69a75b1d
+    ParentPath: Events\Default Work Unit
+    guid: 80b0cdb1a46f7c479a4b5e5c69a75b1d
+    GuidInternal: 
+    m_lastTime: -8584201574787192649
+    List:
+    - name: SwampyBog_Pause_Music
+      guid: 3ac8b239c3f40b46b39fbbb143907380
+      id: 2356596639
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b0cdb1a46f7c479a4b5e5c69a75b1d
+      - ElementName: SwampyBog_Pause_Music
+        ObjectType: 3
+        guid: 3ac8b239c3f40b46b39fbbb143907380
+      Path: Events\Default Work Unit\SwampyBog_Pause_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SwampyBog_Play_Music_System
+      guid: dde2494678429b45aead0182f6a0f2c9
+      id: 937343755
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b0cdb1a46f7c479a4b5e5c69a75b1d
+      - ElementName: SwampyBog_Play_Music_System
+        ObjectType: 3
+        guid: dde2494678429b45aead0182f6a0f2c9
+      Path: Events\Default Work Unit\SwampyBog_Play_Music_System
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SwampyBog_Unpause_Music
+      guid: c9376d6bde435042b54d3679dfa3fc67
+      id: 781157024
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b0cdb1a46f7c479a4b5e5c69a75b1d
+      - ElementName: SwampyBog_Unpause_Music
+        ObjectType: 3
+        guid: c9376d6bde435042b54d3679dfa3fc67
+      Path: Events\Default Work Unit\SwampyBog_Unpause_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b159486172dc824d8ca119cab6db328a
+    ParentPath: Game Parameters\Default Work Unit
+    guid: b159486172dc824d8ca119cab6db328a
+    GuidInternal: 
+    m_lastTime: -8584201574787303627
+    List:
+    - name: playerHealth
+      guid: b5eb85442b4ac842a8330e1e1b0a7a06
+      id: 151362964
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b159486172dc824d8ca119cab6db328a
+      - ElementName: playerHealth
+        ObjectType: 13
+        guid: b5eb85442b4ac842a8330e1e1b0a7a06
+      Path: Game Parameters\Default Work Unit\playerHealth
+    - name: teleporterPlayerStatus
+      guid: bd280c02c227af43aa22b1639dc2aa90
+      id: 1010989040
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b159486172dc824d8ca119cab6db328a
+      - ElementName: teleporterPlayerStatus
+        ObjectType: 13
+        guid: bd280c02c227af43aa22b1639dc2aa90
+      Path: Game Parameters\Default Work Unit\teleporterPlayerStatus
+    - name: Volume_Master
+      guid: 6f415299d4fe1649b650ae22863eb780
+      id: 3695994288
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b159486172dc824d8ca119cab6db328a
+      - ElementName: Volume_Master
+        ObjectType: 13
+        guid: 6f415299d4fe1649b650ae22863eb780
+      Path: Game Parameters\Default Work Unit\Volume_Master
+    - name: Volume_MSX
+      guid: 88b40ea31d7db74c938c9240d0ff5402
+      id: 3729143042
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b159486172dc824d8ca119cab6db328a
+      - ElementName: Volume_MSX
+        ObjectType: 13
+        guid: 88b40ea31d7db74c938c9240d0ff5402
+      Path: Game Parameters\Default Work Unit\Volume_MSX
+    - name: Volume_SFX
+      guid: 337d6886b5808a49a2139110eab7e21d
+      id: 3673881719
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b159486172dc824d8ca119cab6db328a
+      - ElementName: Volume_SFX
+        ObjectType: 13
+        guid: 337d6886b5808a49a2139110eab7e21d
+      Path: Game Parameters\Default Work Unit\Volume_SFX
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: af8df545505da14ab0c688f89fe48c21
+    ParentPath: States\Default Work Unit
+    guid: af8df545505da14ab0c688f89fe48c21
+    GuidInternal: 
+    m_lastTime: -8584201574787082331
+    List:
+    - name: bossStatus
+      guid: e594a072647fb44190770c2f61f6bc33
+      id: 549431000
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: af8df545505da14ab0c688f89fe48c21
+      - ElementName: bossStatus
+        ObjectType: 9
+        guid: e594a072647fb44190770c2f61f6bc33
+      Path: States\Default Work Unit\bossStatus
+      values:
+      - name: alive
+        guid: fb35c70088d9b84081252259ae24a2bd
+        id: 655265632
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: bossStatus
+          ObjectType: 9
+          guid: e594a072647fb44190770c2f61f6bc33
+        - ElementName: alive
+          ObjectType: 8
+          guid: fb35c70088d9b84081252259ae24a2bd
+      - name: dead
+        guid: 8264c2222fad5e45aa1b1760c930c168
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: bossStatus
+          ObjectType: 9
+          guid: e594a072647fb44190770c2f61f6bc33
+        - ElementName: dead
+          ObjectType: 8
+          guid: 8264c2222fad5e45aa1b1760c930c168
+      - name: None
+        guid: 672c59244949754d86cd2a5704a0f56b
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: bossStatus
+          ObjectType: 9
+          guid: e594a072647fb44190770c2f61f6bc33
+        - ElementName: None
+          ObjectType: 8
+          guid: 672c59244949754d86cd2a5704a0f56b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_system
+      guid: 7a42f59612e255448c2ebdfbf84bf7a4
+      id: 792781730
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: af8df545505da14ab0c688f89fe48c21
+      - ElementName: Music_system
+        ObjectType: 9
+        guid: 7a42f59612e255448c2ebdfbf84bf7a4
+      Path: States\Default Work Unit\Music_system
+      values:
+      - name: Bossfight
+        guid: 778d5b0cd517154b9cb2463cebcdf8de
+        id: 580146960
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: Music_system
+          ObjectType: 9
+          guid: 7a42f59612e255448c2ebdfbf84bf7a4
+        - ElementName: Bossfight
+          ObjectType: 8
+          guid: 778d5b0cd517154b9cb2463cebcdf8de
+      - name: Gameplay
+        guid: f30bd73dade30b45959460835bd1a30c
+        id: 89505537
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: Music_system
+          ObjectType: 9
+          guid: 7a42f59612e255448c2ebdfbf84bf7a4
+        - ElementName: Gameplay
+          ObjectType: 8
+          guid: f30bd73dade30b45959460835bd1a30c
+      - name: Menu
+        guid: f9deac0579f6cb47a7ec383c5fb632e8
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: Music_system
+          ObjectType: 9
+          guid: 7a42f59612e255448c2ebdfbf84bf7a4
+        - ElementName: Menu
+          ObjectType: 8
+          guid: f9deac0579f6cb47a7ec383c5fb632e8
+      - name: None
+        guid: 94521eb0f5979b41a1a927629444b741
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: Music_system
+          ObjectType: 9
+          guid: 7a42f59612e255448c2ebdfbf84bf7a4
+        - ElementName: None
+          ObjectType: 8
+          guid: 94521eb0f5979b41a1a927629444b741
+      - name: SecretLevel
+        guid: 36fe42ba9fd179489b496c2776599d07
+        id: 778026301
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: Music_system
+          ObjectType: 9
+          guid: 7a42f59612e255448c2ebdfbf84bf7a4
+        - ElementName: SecretLevel
+          ObjectType: 8
+          guid: 36fe42ba9fd179489b496c2776599d07
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: SwampyBog_gameplaySongChoice
+      guid: 7d499c58757c4a4aa334d3eebde5d455
+      id: 1654822869
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: af8df545505da14ab0c688f89fe48c21
+      - ElementName: SwampyBog_gameplaySongChoice
+        ObjectType: 9
+        guid: 7d499c58757c4a4aa334d3eebde5d455
+      Path: States\Default Work Unit\SwampyBog_gameplaySongChoice
+      values:
+      - name: None
+        guid: bac7136dcf160441bbf248d677454b8a
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: SwampyBog_gameplaySongChoice
+          ObjectType: 9
+          guid: 7d499c58757c4a4aa334d3eebde5d455
+        - ElementName: None
+          ObjectType: 8
+          guid: bac7136dcf160441bbf248d677454b8a
+      - name: ScarletDrizzle
+        guid: ab0aba2e901fca49b45d48e8339a96f8
+        id: 97421041
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: SwampyBog_gameplaySongChoice
+          ObjectType: 9
+          guid: 7d499c58757c4a4aa334d3eebde5d455
+        - ElementName: ScarletDrizzle
+          ObjectType: 8
+          guid: ab0aba2e901fca49b45d48e8339a96f8
+      - name: swampyBog_BossSong
+        guid: da10269835b2774b94cd2e1ab82c49b5
+        id: 3086485471
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: SwampyBog_gameplaySongChoice
+          ObjectType: 9
+          guid: 7d499c58757c4a4aa334d3eebde5d455
+        - ElementName: swampyBog_BossSong
+          ObjectType: 8
+          guid: da10269835b2774b94cd2e1ab82c49b5
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 04f757e2823dba48a63b327e0479106f
+    ParentPath: Switches\Default Work Unit
+    guid: 04f757e2823dba48a63b327e0479106f
+    GuidInternal: 
+    m_lastTime: -8584207692578488396
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8f9746db4552824fa1256826181775af
+    ParentPath: Triggers\Default Work Unit
+    guid: 8f9746db4552824fa1256826181775af
+    GuidInternal: 
+    m_lastTime: -8584207692578096420
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 0a0000000b0000000d0000000f00000010000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

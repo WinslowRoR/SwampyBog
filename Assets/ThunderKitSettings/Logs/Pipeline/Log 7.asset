@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 7
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: 61818c7a90c153c4088c7ad6f6ed49be, type: 2}
+  creationDate:
+    ticks: 639164503887425752
+  entries:
+  - logLevel: 3
+    internalTime:
+      ticks: 639164504169124673
+    message: '[Pipeline](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639164504168389701
+    message: '[Pipeline(4 - Copy)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      ``` <ManifestPluginStaging> ``` to ``` <DeploymentFolder> ```
+
+      
+
+      Copied
+      ``` ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow ``` to ```
+      C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow
+      ```'
+    context:
+    - "Copied Files\r\n\r\n 1. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\CHANGELOG.md\r\n\r\n
+      2. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\icon.png\r\n\r\n
+      3. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\manifest.json\r\n\r\n
+      4. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\README.md\r\n\r\n
+      5. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\SwampyBog_winslow.dll\r\n\r\n
+      6. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\SwampyBog_winslow.manifest\r\n\r\n
+      7. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\swampybog_winslowassets\r\n\r\n
+      8. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\swampybog_winslowassets.manifest\r\n\r\n
+      9. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\swampybog_winslowscene\r\n\r\n
+      10. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\swampybog_winslowscene.manifest"
+  - logLevel: 3
+    internalTime:
+      ticks: 639164504167510520
+    message: '[Pipeline(4 - Copy)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639164504166959259
+    message: '[Pipeline(3 - StageThunderstoreManifest)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      Creating Thunderstore manifest.json'
+    context:
+    - "Manifest.json\r\n```js\r\n{\n    \"name\": \"SwampyBog_winslow\",\n    \"author\":
+      \"Winslow\",\n    \"version_number\": \"1.0.0\",\n    \"website_url\": \"\",\n   
+      \"description\": \"d\",\n    \"dependencies\": [\n        \"bbepis-BepInExPack-5.4.2121\"\n   
+      ]\n}\r\n```"
+  - logLevel: 3
+    internalTime:
+      ticks: 639164504166369750
+    message: '[Pipeline(3 - StageThunderstoreManifest)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639164504165810324
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      staged ``` Assets/SwampyBog_winslow/icon.png ``` in ``` ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow/icon.png
+      ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639164504165244928
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      staged ``` Assets/SwampyBog_winslow/CHANGELOG.md ``` in ``` ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow/CHANGELOG.md
+      ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639164504164826154
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      staged ``` Assets/SwampyBog_winslow/README.md ``` in ``` ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow/README.md
+      ```'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 639164504164283931
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639164504091235265
+    message: '[Pipeline(1 - StageAssetBundles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      Creating 2 AssetBundles'
+    context:
+    - 'SwampyBog_winslowAssets
+
+      [AirNodes](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fAirNodes.asset)
+
+      
+
+      [dccspoolSwampyBogInteractables](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fdccspoolSwampyBogInteractables.asset)
+
+      
+
+      [dccspoolSwampyBogMonsters](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fdccspoolSwampyBogMonsters.asset)
+
+      
+
+      [dccsSwampyBogInteractables](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fdccsSwampyBogInteractables.asset)
+
+      
+
+      [dccsSwampyBogMonsters](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fdccsSwampyBogMonsters.asset)
+
+      
+
+      [GroundNodes](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fGroundNodes.asset)
+
+      
+
+      [swampybog_winslow](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fswampybog_winslow.asset)
+
+      
+
+      [New
+      Material](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMaterials%2fNew+Material.mat)
+
+      
+
+      
+
+'
+    - 'SwampyBog_winslowScene
+
+      [swampybog_winslow](assetlink://Assets%2fSwampyBog_winslow%2fScenes%2fswampybog_winslow.unity)
+
+      
+
+      
+
+'
+  - logLevel: 3
+    internalTime:
+      ticks: 639164504084735372
+    message: '[Pipeline(1 - StageAssetBundles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639164504084338690
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      Build Completed: ``` ThunderKit/Libraries/SwampyBog_winslow.dll ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639164504078599655
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      staging ``` ThunderKit/Libraries ``` in ``` ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow
+      ```
+
+'
+    context:
+    - "Assembly Files\r\nFrom: ThunderKit/Libraries\\SwampyBog_winslow.dll\r\n  To:
+      ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow/SwampyBog_winslow.dll\r\n\r\n"
+  - logLevel: 0
+    internalTime:
+      ticks: 639164503906826329
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      Building : ThunderKit/Libraries/SwampyBog_winslow.dll'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639164503902606432
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[BepInExPack](assetlink://Packages%2fbbepis-bepinexpack%2fBepInExPack.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639164503901856619
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[MiscFixes](assetlink://Packages%2fscore-miscfixes%2fMiscFixes.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639164503900155095
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SeekersPatcher](assetlink://Packages%2fpseudopulse-seekerspatcher%2fSeekersPatcher.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639164503899230841
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[BepInEx_GUI](assetlink://Packages%2friskofthunder-bepinex_gui%2fBepInEx_GUI.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639164503898515607
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[FixPluginTypesSerialization](assetlink://Packages%2friskofthunder-fixplugintypesserialization%2fFixPluginTypesSerialization.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639164503897628828
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[RoR2BepInExPack](assetlink://Packages%2friskofthunder-ror2bepinexpack%2fRoR2BepInExPack.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 639164503893836092
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639164503893805300
+    message: '[Pipeline(4 - Copy)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 639164503893779973
+    message: '[Pipeline(4 - Copy)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Pipeline'
+    context: []

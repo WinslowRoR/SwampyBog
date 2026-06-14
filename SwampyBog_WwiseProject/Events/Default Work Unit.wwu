@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1CDB080-6FA4-477C-9A4B-5E5C69A75B1D}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B1CDB080-6FA4-477C-9A4B-5E5C69A75B1D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SwampyBog_Play_Music_System" ID="{4649E2DD-4278-459B-AEAD-0182F6A0F2C9}">
+					<ChildrenList>
+						<Action Name="" ID="{573A7A13-8A53-4D3C-8C3D-563FC10F6681}" ShortID="495641970">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwampyBog_Music_System" ID="{4871FD98-DB4C-4288-B91A-D3B8B602A8F4}" WorkUnitID="{405D52B1-A9FB-4E49-ABFC-A083DCC5D3C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SwampyBog_Pause_Music" ID="{39B2C83A-F4C3-460B-B39F-BBB143907380}">
+					<ChildrenList>
+						<Action Name="" ID="{41A2F258-4808-4968-831D-13488C81D35B}" ShortID="440855663">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwampyBog_Music_System" ID="{4871FD98-DB4C-4288-B91A-D3B8B602A8F4}" WorkUnitID="{405D52B1-A9FB-4E49-ABFC-A083DCC5D3C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SwampyBog_Unpause_Music" ID="{6B6D37C9-43DE-4250-B54D-3679DFA3FC67}">
+					<ChildrenList>
+						<Action Name="" ID="{2927EAD7-F1FE-4492-B0DB-7AE88A47A8CF}" ShortID="990150838">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwampyBog_Music_System" ID="{4871FD98-DB4C-4288-B91A-D3B8B602A8F4}" WorkUnitID="{405D52B1-A9FB-4E49-ABFC-A083DCC5D3C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

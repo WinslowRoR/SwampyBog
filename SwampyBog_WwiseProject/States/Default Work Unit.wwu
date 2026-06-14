@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{45F58DAF-5D50-4AA1-B0C6-88F89FE48C21}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{45F58DAF-5D50-4AA1-B0C6-88F89FE48C21}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="bossStatus" ID="{72A094E5-7F64-41B4-9077-0C2F61F6BC33}">
+					<ChildrenList>
+						<State Name="None" ID="{24592C67-4949-4D75-86CD-2A5704A0F56B}"/>
+						<State Name="alive" ID="{00C735FB-D988-40B8-8125-2259AE24A2BD}"/>
+						<State Name="dead" ID="{22C26482-AD2F-455E-AA1B-1760C930C168}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="SwampyBog_gameplaySongChoice" ID="{589C497D-7C75-4A4A-A334-D3EEBDE5D455}">
+					<ChildrenList>
+						<State Name="None" ID="{6D13C7BA-16CF-4104-BBF2-48D677454B8A}"/>
+						<State Name="ScarletDrizzle" ID="{2EBA0AAB-1F90-49CA-B45D-48E8339A96F8}"/>
+						<State Name="swampyBog_BossSong" ID="{982610DA-B235-4B77-94CD-2E1AB82C49B5}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_system" ID="{96F5427A-E212-4455-8C2E-BDFBF84BF7A4}">
+					<ChildrenList>
+						<State Name="None" ID="{B01E5294-97F5-419B-A1A9-27629444B741}"/>
+						<State Name="Bossfight" ID="{0C5B8D77-17D5-4B15-9CB2-463CEBCDF8DE}"/>
+						<State Name="Gameplay" ID="{3DD70BF3-E3AD-450B-9594-60835BD1A30C}"/>
+						<State Name="Menu" ID="{05ACDEF9-F679-47CB-A7EC-383C5FB632E8}"/>
+						<State Name="SecretLevel" ID="{BA42FE36-D19F-4879-9B49-6C2776599D07}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,517 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 53
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: 61818c7a90c153c4088c7ad6f6ed49be, type: 2}
+  creationDate:
+    ticks: 639167225730560624
+  entries:
+  - logLevel: 3
+    internalTime:
+      ticks: 639167226430644708
+    message: '[Pipeline](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639167226430059314
+    message: '[Pipeline(4 - Copy)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      ``` <ManifestPluginStaging> ``` to ``` <DeploymentFolder> ```
+
+      
+
+      Copied
+      ``` ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow ``` to ```
+      C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow
+      ```'
+    context:
+    - "Copied Files\r\n\r\n 1. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\CHANGELOG.md\r\n\r\n
+      2. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\icon.png\r\n\r\n
+      3. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\manifest.json\r\n\r\n
+      4. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\README.md\r\n\r\n
+      5. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\SwampyBog_winslow.dll\r\n\r\n
+      6. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\SwampyBog_winslow.manifest\r\n\r\n
+      7. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\swampybog_winslowassets\r\n\r\n
+      8. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\swampybog_winslowassets.manifest\r\n\r\n
+      9. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\swampybog_winslowscene\r\n\r\n
+      10. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/SwampyBog_winslow\\swampybog_winslowscene.manifest"
+  - logLevel: 3
+    internalTime:
+      ticks: 639167226428777266
+    message: '[Pipeline(4 - Copy)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639167226428214853
+    message: '[Pipeline(3 - StageThunderstoreManifest)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      Creating Thunderstore manifest.json'
+    context:
+    - "Manifest.json\r\n```js\r\n{\n    \"name\": \"SwampyBog_winslow\",\n    \"author\":
+      \"Winslow\",\n    \"version_number\": \"1.0.0\",\n    \"website_url\": \"\",\n   
+      \"description\": \"d\",\n    \"dependencies\": [\n        \"bbepis-BepInExPack-5.4.2121\"\n   
+      ]\n}\r\n```"
+  - logLevel: 3
+    internalTime:
+      ticks: 639167226427588336
+    message: '[Pipeline(3 - StageThunderstoreManifest)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639167226427041328
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      staged ``` Assets/SwampyBog_winslow/icon.png ``` in ``` ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow/icon.png
+      ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639167226426456713
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      staged ``` Assets/SwampyBog_winslow/CHANGELOG.md ``` in ``` ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow/CHANGELOG.md
+      ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639167226425958456
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      staged ``` Assets/SwampyBog_winslow/README.md ``` in ``` ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow/README.md
+      ```'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 639167226425402719
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639167225983642186
+    message: '[Pipeline(1 - StageAssetBundles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      Creating 2 AssetBundles'
+    context:
+    - 'SwampyBog_winslowAssets
+
+      [PipeworksPostProcess](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPipeworksPostProcess.asset)
+
+      
+
+      [AirNodes](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fAirNodes.asset)
+
+      
+
+      [dccspoolSwampyBogInteractables](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fdccspoolSwampyBogInteractables.asset)
+
+      
+
+      [dccspoolSwampyBogMonsters](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fdccspoolSwampyBogMonsters.asset)
+
+      
+
+      [dccsSwampyBogInteractables](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fdccsSwampyBogInteractables.asset)
+
+      
+
+      [dccsSwampyBogMonsters](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fdccsSwampyBogMonsters.asset)
+
+      
+
+      [GroundNodes](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fGroundNodes.asset)
+
+      
+
+      [swampybog_winslow](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fInfo%2fswampybog_winslow.asset)
+
+      
+
+      [matAncientLoft_Water](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMaterials%2fmatAncientLoft_Water.mat)
+
+      
+
+      [matInverseDistortion](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMaterials%2fmatInverseDistortion.mat)
+
+      
+
+      [matOpaqueDustSpeckledUnlit](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMaterials%2fmatOpaqueDustSpeckledUnlit.mat)
+
+      
+
+      [PipeCover](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMaterials%2fPipeCover.mat)
+
+      
+
+      [PipeworksMegaPlatform1](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMaterials%2fPipeworksMegaPlatform1.mat)
+
+      
+
+      [PipeworksMegaPlatform2](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMaterials%2fPipeworksMegaPlatform2.mat)
+
+      
+
+      [PipeworksMetal](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMaterials%2fPipeworksMetal.mat)
+
+      
+
+      [PipeworksRocks](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMaterials%2fPipeworksRocks.mat)
+
+      
+
+      [PipeworksTerrainMaterial](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMaterials%2fPipeworksTerrainMaterial.mat)
+
+      
+
+      [PipeworksTree](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMaterials%2fPipeworksTree.mat)
+
+      
+
+      [GeyserBasis](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fGeyserBasis.fbx)
+
+      
+
+      [PipeCover](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fPipeCover.blend)
+
+      
+
+      [PipeCover](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fPipeCover.blend1)
+
+      
+
+      [Pipes](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fPipes.blend)
+
+      
+
+      [Pipes](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fPipes.blend1)
+
+      
+
+      [propShrine1](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fpropShrine1.blend)
+
+      
+
+      [propShrine1](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fpropShrine1.blend1)
+
+      
+
+      [propShrine2](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fpropShrine2.blend)
+
+      
+
+      [propShrine2](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fpropShrine2.blend1)
+
+      
+
+      [StoneMegaPlatform](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fStoneMegaPlatform.blend)
+
+      
+
+      [StoneMegaPlatform](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fStoneMegaPlatform.blend1)
+
+      
+
+      [Terrain](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fTerrain.blend)
+
+      
+
+      [Terrain](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fMeshes%2fTerrain.blend1)
+
+      
+
+      [Geyser](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fGeyser.prefab)
+
+      
+
+      [Pipe1](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fPipe1.prefab)
+
+      
+
+      [Pipe2](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fPipe2.prefab)
+
+      
+
+      [PipeCover](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fPipeCover.prefab)
+
+      
+
+      [Pipe_Big1](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fPipe_Big1.prefab)
+
+      
+
+      [Pipe_Big2](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fPipe_Big2.prefab)
+
+      
+
+      [Pipe_Cluster1](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fPipe_Cluster1.prefab)
+
+      
+
+      [Pipe_Cluster2](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fPipe_Cluster2.prefab)
+
+      
+
+      [propShrine1](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fpropShrine1.prefab)
+
+      
+
+      [propShrine1_Water
+      Variant](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fpropShrine1_Water+Variant.prefab)
+
+      
+
+      [propShrine2](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fpropShrine2.prefab)
+
+      
+
+      [StoneMegaPlatform](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fStoneMegaPlatform.prefab)
+
+      
+
+      [StoneMegaPlatformLayered](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fPrefabs%2fStoneMegaPlatformLayered.prefab)
+
+      
+
+      [sdDirt](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fSurfaceDefs%2fsdDirt.asset)
+
+      
+
+      [sdIce](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fSurfaceDefs%2fsdIce.asset)
+
+      
+
+      [sdMetal](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fSurfaceDefs%2fsdMetal.asset)
+
+      
+
+      [sdStone](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fSurfaceDefs%2fsdStone.asset)
+
+      
+
+      [sdWood](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fSurfaceDefs%2fsdWood.asset)
+
+      
+
+      [Canal_Cover_ColorMap](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fCanal_Cover_ColorMap.png)
+
+      
+
+      [Canal_Cover_NormalMap](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fCanal_Cover_NormalMap.png)
+
+      
+
+      [LargeWave](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fLargeWave.png)
+
+      
+
+      [MetalLightRust](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fMetalLightRust.png)
+
+      
+
+      [MetalRust](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fMetalRust.png)
+
+      
+
+      [MetalRust_Normal](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fMetalRust_Normal.png)
+
+      
+
+      [Terrain_GreenChannel](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fTerrain_GreenChannel.png)
+
+      
+
+      [Terrain_Moss](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fTerrain_Moss.png)
+
+      
+
+      [Terrain_NormalMap](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fTerrain_NormalMap.png)
+
+      
+
+      [Terrain_Rock](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fTerrain_Rock.png)
+
+      
+
+      [Terrain_RockWall](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fTerrain_RockWall.png)
+
+      
+
+      [texAncientLoft2_splat](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2ftexAncientLoft2_splat.png)
+
+      
+
+      [texAncientLoft_splat](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2ftexAncientLoft_splat.png)
+
+      
+
+      [texCloudWaterFoam2](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2ftexCloudWaterFoam2.png)
+
+      
+
+      [texFSLichen1](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2ftexFSLichen1.png)
+
+      
+
+      [texFSLichen2](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2ftexFSLichen2.png)
+
+      
+
+      [texFSLichen3](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2ftexFSLichen3.png)
+
+      
+
+      [texFWBricks1](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2ftexFWBricks1.png)
+
+      
+
+      [texNormalInvertConeFade](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2ftexNormalInvertConeFade.png)
+
+      
+
+      [texNormalTiles](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2ftexNormalTiles.png)
+
+      
+
+      [texSmokePuffSpeckledDisplacement](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2ftexSmokePuffSpeckledDisplacement.png)
+
+      
+
+      [texSmokePuffSpeckledNormal](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2ftexSmokePuffSpeckledNormal.png)
+
+      
+
+      [Tree](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fTree.png)
+
+      
+
+      [Waves_N](assetlink://Assets%2fSwampyBog_winslow%2fAssets%2fTextures%2fWaves_N.png)
+
+      
+
+      [PostProcessLayer](assetlink://Packages%2fcom.unity.postprocessing%2fPostProcessing%2fGizmos%2fPostProcessLayer.png)
+
+      
+
+      [CalmWater
+      - DX11](assetlink://Assets%2fStubbed+Shaders%2fCalm+Water%2fShaders%2fCalmWater+-+DX11.shader)
+
+      
+
+      [HGDistortion](assetlink://Assets%2fStubbed+Shaders%2fRoR2%2fBase%2fShaders%2fFX%2fHGDistortion.shader)
+
+      
+
+      [HGOpaqueCloudRemap](assetlink://Assets%2fStubbed+Shaders%2fRoR2%2fBase%2fShaders%2fFX%2fHGOpaqueCloudRemap.shader)
+
+      
+
+      [HGStandard](assetlink://Assets%2fStubbed+Shaders%2fRoR2%2fBase%2fShaders%2fDeferred%2fHGStandard.shader)
+
+      
+
+      [HGTriplanarTerrainBlend](assetlink://Assets%2fStubbed+Shaders%2fRoR2%2fBase%2fShaders%2fDeferred%2fHGTriplanarTerrainBlend.shader)
+
+      
+
+      
+
+'
+    - 'SwampyBog_winslowScene
+
+      [swampybog_winslow](assetlink://Assets%2fSwampyBog_winslow%2fScenes%2fswampybog_winslow.unity)
+
+      
+
+      
+
+'
+  - logLevel: 3
+    internalTime:
+      ticks: 639167225975550177
+    message: '[Pipeline(1 - StageAssetBundles)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639167225975243409
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      Build Completed: ``` ThunderKit/Libraries/SwampyBog_winslow.dll ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639167225960922779
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      staging ``` ThunderKit/Libraries ``` in ``` ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow
+      ```
+
+'
+    context:
+    - "Assembly Files\r\nFrom: ThunderKit/Libraries\\SwampyBog_winslow.dll\r\n  To:
+      ThunderKit/Staging/SwampyBog_winslow/plugins/SwampyBog_winslow/SwampyBog_winslow.dll\r\n\r\n"
+  - logLevel: 0
+    internalTime:
+      ticks: 639167225752491255
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SwampyBog_winslowManifest](assetlink://Assets%2fSwampyBog_winslow%2fSwampyBog_winslowManifest.asset)
+      Building : ThunderKit/Libraries/SwampyBog_winslow.dll'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639167225746361289
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[BepInExPack](assetlink://Packages%2fbbepis-bepinexpack%2fBepInExPack.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639167225745360223
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[MiscFixes](assetlink://Packages%2fscore-miscfixes%2fMiscFixes.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639167225744470576
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[SeekersPatcher](assetlink://Packages%2fpseudopulse-seekerspatcher%2fSeekersPatcher.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639167225743447412
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[BepInEx_GUI](assetlink://Packages%2friskofthunder-bepinex_gui%2fBepInEx_GUI.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639167225742449024
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[FixPluginTypesSerialization](assetlink://Packages%2friskofthunder-fixplugintypesserialization%2fFixPluginTypesSerialization.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639167225741433351
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)[RoR2BepInExPack](assetlink://Packages%2friskofthunder-ror2bepinexpack%2fRoR2BepInExPack.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 639167225734480430
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639167225734272823
+    message: '[Pipeline](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 639167225733711408
+    message: '[Pipeline](assetlink://Assets%2fSwampyBog_winslow%2fPipeline.asset)
+      Execute Pipeline'
+    context: []

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="SwampyBog_WwiseProject" GUID="{56484DBC-BC1A-4804-8374-9973C4BE966A}" Generator="2023.1.4.8496"/>
+	<CacheRoot>../../../../SwampyBog_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{4556AF3C-4EEE-4168-B25C-AF2EA15D3D6C}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../SwampyBog_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{B13791B0-AB31-4865-91C3-C137BB385F29}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../SwampyBog_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{91693CA0-F688-4097-999B-85A87B210483}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{C5B84590-628F-8E76-C839-F34A0CAAF1DE}</FileHash>
+</ProjectInfo>

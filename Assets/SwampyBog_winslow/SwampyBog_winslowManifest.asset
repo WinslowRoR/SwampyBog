@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2902210201989183848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a82fec78ebc734d9ad1346cd40b5f9, type: 3}
+  m_Name: ThunderstoreData
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>
+  url: 
+--- !u!114 &-1063268353891329317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>
+  definitions:
+  - {fileID: 5897886265953266890, guid: 4f9bb27252bcf364992ed976f76b8da7, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: SwampyBog_winslowManifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 7936676844719610933}
+  - {fileID: 543679922842958774}
+  - {fileID: -1063268353891329317}
+  - {fileID: 274209112167064201}
+  - {fileID: -2902210201989183848}
+  identity: {fileID: 7936676844719610933}
+  QuickAccess: 0
+--- !u!114 &274209112167064201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>
+  includeMetaFiles: 0
+  files:
+  - {fileID: 4900000, guid: d3877b6da573e7f4d85b7ccca6bfd461, type: 3}
+  - {fileID: 4900000, guid: 25b7ac738d3da5447a81e02d674639fd, type: 3}
+  - {fileID: 2800000, guid: 68c0ebc414f79884f8b975fed898978f, type: 3}
+  - {fileID: 102900000, guid: ebd5c8c17fbcb1946a09eb62648a925d, type: 3}
+--- !u!114 &543679922842958774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>
+  assetBundles:
+  - assetBundleName: SwampyBog_winslowAssets
+    assets:
+    - {fileID: 102900000, guid: decce28db4296d64993ccb7aa4b0d989, type: 3}
+  - assetBundleName: SwampyBog_winslowScene
+    assets:
+    - {fileID: 102900000, guid: 53e46eac0ad78ef4f8db13ef2ab16ef1, type: 3}
+--- !u!114 &7936676844719610933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>
+  Author: Winslow
+  Name: SwampyBog_winslow
+  Description: d
+  Version: 1.0.0
+  Dependencies:
+  - {fileID: 11400000, guid: 2d4d09ec817c24698d35dc9bf0704fdc, type: 2}
