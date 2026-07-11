@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5292e78faf8858e4aa2153b7c5bb402f, type: 3}
   m_Name: 982610DA-B235-4B77-94CD-2E1AB82C49B5
   m_EditorClassIdentifier: 
-  objectName: swampyBog_BossSong
-  id: 3086485471
+  objectName: BossSong
+  id: 833170957
   guid: 982610DA-B235-4B77-94CD-2E1AB82C49B5
   WwiseStateGroupReference: {fileID: 11400000, guid: 3ad4b8f517e68104cb89ebd1768a736b, type: 2}

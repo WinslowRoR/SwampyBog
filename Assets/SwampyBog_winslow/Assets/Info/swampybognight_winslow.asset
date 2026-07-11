@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -794597441, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: swampybognight_winslow
+  m_EditorClassIdentifier: 
+  sceneAddress:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+  baseSceneNameOverride: swampybognight_winslow
+  sceneType: 1
+  isOfflineScene: 0
+  stageOrder: 4
+  requiredExpansion: {fileID: 0}
+  nameToken: SWAMPYBOGNIGHT_WINSLOW_TITLE
+  subtitleToken: SWAMPYBOGNIGHT_WINSLOW_SUBTITLE
+  previewTexture: {fileID: 2800000, guid: 7497907e27500c541bffbfa7888f0b9d, type: 3}
+  previewTextureReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+  portalMaterial: {fileID: 2100000, guid: f749aab8cf6b8964e88a07f0e956dcd0, type: 2}
+  portalMaterialReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+  portalSelectionMessageString: SWAMPYBOGNIGHT_WINSLOW_BAZAAR_SEER
+  filterOutOfBazaar: 0
+  shouldIncludeInLogbook: 1
+  loreToken: SWAMPYBOGNIGHT_WINSLOW_LORE
+  dioramaPrefab: {fileID: 2580972406241754076, guid: bba14c8c8ddf99749937841c24312d33, type: 3}
+  dioramaPrefabAddress:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+  mainTrack: {fileID: 11400000, guid: 2911a7c0497eb6f46abf3b1049a50b8e, type: 2}
+  bossTrack: {fileID: 11400000, guid: c9ebda4974421734795fe4269ff25c79, type: 2}
+  environmentColor: {r: 0.242969, g: 0.42684102, b: 0.49056602, a: 0}
+  hasSafeStart: 0
+  suppressPlayerEntry: 0
+  suppressNpcEntry: 0
+  blockOrbitalSkills: 0
+  validForRandomSelection: 1
+  allowItemsToSpawnObjects: 0
+  preventStageAdvanceCounter: 0
+  needSkipDevotionRespawn: 0
+  destinationsGroup: {fileID: 0}
+  loopedDestinationsGroup: {fileID: 0}
+  shouldUpdateSceneCollectionAfterLooping: 0
+  isLockedBeforeLooping: 1
+  loopedSceneDef: {fileID: 0}
+  destinations: []
+  preferredPortalPrefab: {fileID: 0}
+  portalPrefabAddress:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 

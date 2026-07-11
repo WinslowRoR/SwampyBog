@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4081545941
+CRC: 1128014150
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 58428773009c5c11d299ae10adbc2407
+    Hash: 9ee54562495ffd7c1b6bbf2745a63467
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 45cd7fdf9e22cf2a8a713e13ba2a01c8
+    Hash: e3292d635114087772b89194968b1da7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,24 +27,34 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 1052602003, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 35331000, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
-  Script: {fileID: 1824991427, guid: 10f131901558a8ddf018de1749a33e97, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: b3f6f3f7c722b4544b97e3c75840aa33, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: c1cb7e9e120078f43bce4f0b1be547a7, type: 3}
+  Script: {fileID: 511512695, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: 2014855634, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -335047464, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -104859921, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 88495368, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1864444436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -255427816, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -58,14 +68,32 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 630417361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
+  Script: {fileID: -1746479147, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 816898038, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 5292e78faf8858e4aa2153b7c5bb402f, type: 3}
+- Class: 114
+  Script: {fileID: 495100722, guid: 45feadaaa90b2d2217207fb8b533753e, type: 3}
+- Class: 114
+  Script: {fileID: 2099981080, guid: 45feadaaa90b2d2217207fb8b533753e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1cb7e9e120078f43bce4f0b1be547a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 40b924e2dad56384a8df2a1e111bb675, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 29ffebd1a75a86447a43cf2786dd9b55, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: e10e374f191435a45b30afc9e66e17e1, type: 3}
+- Class: 114
+  Script: {fileID: 1824991427, guid: 10f131901558a8ddf018de1749a33e97, type: 3}
 - Class: 115
+  Script: {instanceID: 0}
+- Class: 117
   Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
@@ -75,17 +103,45 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 199
   Script: {instanceID: 0}
+- Class: 850595691
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
 - AssemblyName: AK.Wwise.Unity.API.WwiseTypes
   ClassName: AK.Wwise.Bank
 - AssemblyName: AK.Wwise.Unity.API.WwiseTypes
   ClassName: AK.Wwise.State
+- AssemblyName: R2API.Addressables
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedExpansionDef
+- AssemblyName: R2API.Addressables
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedSpawnCard
+- AssemblyName: R2API.Addressables
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDCCSPool/Category
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDCCSPool/ConditionalPoolEntry
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDCCSPool/PoolEntry
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDirectorCard
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDirectorCardCategorySelection/Category
 - AssemblyName: RoR2
   ClassName: RoR2.AssetReferenceScene
 - AssemblyName: RoR2
   ClassName: RoR2.DccsPool/Category
 - AssemblyName: RoR2
-  ClassName: RoR2.DccsPool/PoolEntry
+  ClassName: RoR2.Navigation.NodeGraph/Link
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/LinkListIndex
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/Node
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/NodeIndex
+- AssemblyName: RoR2
+  ClassName: SerializableBitArray
 - AssemblyName: RoR2
   ClassName: Wave
 - AssemblyName: Unity.Addressables
@@ -103,125 +159,295 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Unity.Postprocessing.Runtime
   ClassName: UnityEngine.Rendering.PostProcessing.ColorParameter
 - AssemblyName: Unity.Postprocessing.Runtime
-  ClassName: UnityEngine.Rendering.PostProcessing.EyeAdaptationParameter
-- AssemblyName: Unity.Postprocessing.Runtime
   ClassName: UnityEngine.Rendering.PostProcessing.FloatParameter
 - AssemblyName: Unity.Postprocessing.Runtime
   ClassName: UnityEngine.Rendering.PostProcessing.TextureParameter
 - AssemblyName: Unity.Postprocessing.Runtime
   ClassName: UnityEngine.Rendering.PostProcessing.Vector2Parameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.VignetteModeParameter
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.PersistentCallGroup
 - AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+- AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.UnityEvent`1[RoR2.CharacterBody]
 Assets:
-- Assets/SwampyBog_winslow/Assets/Prefabs/TreeLog_Short.prefab
 - Assets/SwampyBog_winslow/Assets/Textures/PipeworksSkybox.png
-- Assets/SwampyBog_winslow/Assets/Prefabs/Order_Crown.prefab
-- Assets/SwampyBog_winslow/Assets/Textures/texCommandoPaletteDiffuse.png
-- Assets/Wwise/ScriptableObjects/State/982610DA-B235-4B77-94CD-2E1AB82C49B5.asset
+- Assets/SwampyBog_winslow/Assets/Textures/texFluffyCloud3Mask.png
+- Assets/SwampyBog_winslow/Assets/Meshes/Slope.fbx
+- Assets/SwampyBog_winslow/Assets/Textures/Flower1_Diffuse.png
 - Assets/SwampyBog_winslow/Assets/Textures/texFSLichen2.png
-- Assets/SwampyBog_winslow/Assets/Materials/PipeworksMegaPlatform1.mat
+- Assets/SwampyBog_winslow/Assets/Textures/texCommandoPaletteDiffuse.png
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dccsSwampyBog_DLC3_A.asset
+- Assets/Wwise/ScriptableObjects/State/982610DA-B235-4B77-94CD-2E1AB82C49B5.asset
+- Assets/SwampyBog_winslow/Assets/Info/Logs.Stages.swampybog_winslow.asset
 - Assets/SwampyBog_winslow/Assets/Textures/Canal_Cover_ColorMap.png
+- Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGOpaqueCloudRemap.shader
+- Assets/SwampyBog_winslow/Assets/Textures/texFWBricks1.png
+- Assets/SwampyBog_winslow/Assets/Prefabs/Pipe2.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/Vase.prefab
+- Assets/SwampyBog_winslow/Assets/Materials/Night/NightShroom.mat
+- Assets/SwampyBog_winslow/Assets/Prefabs/NightShroom.prefab
+- Packages/com.unity.postprocessing/PostProcessing/Gizmos/PostProcessLayer.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightDistantCloud2.mat
+- Assets/SwampyBog_winslow/Assets/Textures/texNormalTiles.png
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksTerrainMaterial.mat
+- Assets/SwampyBog_winslow/Assets/Prefabs/COLLISION_Square1.prefab
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksCubemap.cubemap
+- Assets/SwampyBog_winslow/Assets/Info/AirNodesNight.asset
+- Assets/SwampyBog_winslow/Assets/PipeworksCaveNightPostProcess.asset
+- Assets/SwampyBog_winslow/Assets/Textures/Leaf.png
+- Assets/SwampyBog_winslow/Assets/Prefabs/TreeLog_Long.prefab
+- Assets/SwampyBog_winslow/Assets/Textures/spmDanglingMossCluster_Atlas2.png
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksDioramaMaterial.mat
+- Assets/SwampyBog_winslow/Assets/PipeworksNightDioramaPostProcess.asset
+- Assets/SwampyBog_winslow/Assets/Textures/MetalRust_Normal.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/NightFog.mat
+- Assets/SwampyBog_winslow/Assets/Prefabs/Slope1.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/CeilingShroom.prefab
+- Assets/SwampyBog_winslow/Assets/Meshes/Pillar1.blend
+- Assets/SwampyBog_winslow/Assets/Textures/texCloudOrganicNormal.png
+- Assets/SwampyBog_winslow/Assets/Textures/texCloudIce.png
+- Assets/SwampyBog_winslow/Assets/Materials/Day/matOpaqueWaterFoam.mat
+- Assets/SwampyBog_winslow/Assets/PipeworksUnderwaterNightPostProcess.asset
+- Assets/SwampyBog_winslow/Assets/Meshes/Pebbles2.fbx
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dccsSwampyBogNight_Vanilla.asset
+- Assets/SwampyBog_winslow/Assets/Textures/PipeworksWater.png
+- Assets/Wwise/ScriptableObjects/StateGroup/589C497D-7C75-4A4A-A334-D3EEBDE5D455.asset
+- Assets/SwampyBog_winslow/Assets/Textures/ny.png
+- Assets/SwampyBog_winslow/Assets/Meshes/Pebbles1.fbx
+- Assets/SwampyBog_winslow/Assets/Meshes/PromoMando.blend
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dccsSwampyBog_DLC1.asset
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dpSwampyBogNight.asset
+- Assets/SwampyBog_winslow/Assets/Materials/Day/Fog.mat
+- Assets/Stubbed Shaders/Calm Water/Shaders/CalmWater - DX11.shader
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksMetal.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Day/matAncientLoft_Water.mat
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dccsSwampyBog_Vanilla_A.asset
+- Assets/SwampyBog_winslow/Assets/Materials/Day/matInverseDistortion.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksTree.mat
+- Assets/SwampyBog_winslow/Assets/Textures/texTileRustyMetal.png
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dccsSwampyBog_DLC1_A.asset
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightDistantCloud3.mat
+- Assets/SwampyBog_winslow/Assets/Prefabs/propShrine2.prefab
+- Assets/SwampyBog_winslow/Assets/Textures/PipeworksSkyboxNight.png
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dccsSwampyBog_Vanilla.asset
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dpSwampyBog.asset
+- Assets/SwampyBog_winslow/Assets/texSleepingHollows.png
+- Assets/SwampyBog_winslow/Assets/Meshes/Waterfall.blend
+- Assets/SwampyBog_winslow/Assets/Textures/texCloudDifferenceBW2.png
+- Assets/SwampyBog_winslow/Assets/Textures/Waterfall2.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightSkybox.mat
+- Assets/SwampyBog_winslow/Assets/Textures/px.png
+- Assets/SwampyBog_winslow/Assets/Textures/texCloudWaterFoam2.png
+- Assets/SwampyBog_winslow/Assets/Materials/Day/matCommandoDiffuse.mat
+- Assets/SwampyBog_winslow/Assets/Textures/texRampTwotone.png
+- Assets/SwampyBog_winslow/Assets/Textures/texCloudDifferenceBW1.png
+- Assets/SwampyBog_winslow/Assets/Info/Music/BossTrack.asset
+- Assets/SwampyBog_winslow/Assets/Prefabs/Vase_Group.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/StoneMegaPlatform.prefab
+- Assets/SwampyBog_winslow/Assets/Textures/texAncientLoft_splat.png
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksSkybox.mat
+- Assets/SwampyBog_winslow/Assets/Textures/texRampWhiteAlphaOnly.png
+- Assets/SwampyBog_winslow/Assets/Prefabs/Pipe_Big1.prefab
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dccsSwampyBog_DLC1_A.asset
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightMegaPlatform1.mat
+- Assets/SwampyBog_winslow/Assets/Info/AirNodes.asset
+- Assets/SwampyBog_winslow/Assets/Prefabs/VaseBrokenHalf.prefab
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dpSwampyBog.asset
+- Assets/SwampyBog_winslow/Assets/Prefabs/GeyserFixed_Position.prefab
+- Assets/SwampyBog_winslow/Assets/Materials/Night/matRainNight.mat
+- Assets/SwampyBog_winslow/Assets/Info/swampybognight_winslow.asset
+- Assets/SwampyBog_winslow/Assets/Textures/py.png
+- Assets/SwampyBog_winslow/Assets/Prefabs/Pebbles1.prefab
+- Assets/SwampyBog_winslow/Assets/Meshes/Rocks.fbx
+- Assets/SwampyBog_winslow/Assets/texStagnantPipeworks.png
+- Assets/SwampyBog_winslow/Assets/Materials/Day/matOpaqueDustSpeckledUnlit.mat
+- Assets/SwampyBog_winslow/Assets/Textures/DistTex.png
+- Assets/SwampyBog_winslow/Assets/Textures/Terrain_RockWall.png
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dccsSwampyBog_DLC3_A.asset
+- Assets/SwampyBog_winslow/Assets/Textures/NightShroom_Emmission.png
+- Assets/SwampyBog_winslow/Assets/Meshes/CeilingShroom.fbx
+- Assets/SwampyBog_winslow/Assets/Materials/Night/NightShroom2.mat
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dccsSwampyBog_DLC2_A.asset
+- Assets/SwampyBog_winslow/Assets/Meshes/StoneMegaPlatform.blend
+- Assets/SwampyBog_winslow/Assets/Textures/texFSLichen4.png
+- Assets/Wwise/ScriptableObjects/Soundbank/914FC0F1-873B-43E0-BF75-3E67BDF3DB49.asset
+- Assets/SwampyBog_winslow/Assets/Textures/nx.png
+- Assets/SwampyBog_winslow/Assets/Textures/NightShroom2_Color.png
+- Assets/SwampyBog_winslow/Assets/Textures/Terrain_Moss2.png
+- Assets/SwampyBog_winslow/Assets/Prefabs/Wallshrooms.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/Rocks2.prefab
+- Assets/SwampyBog_winslow/Assets/Meshes/NightShroom.fbx
+- Assets/SwampyBog_winslow/Assets/Prefabs/Pipe_Cluster1.prefab
+- Assets/SwampyBog_winslow/Assets/Textures/texFSLichen1.png
+- Assets/SwampyBog_winslow/Assets/Textures/texTrimSheetMetalNormal.png
+- Assets/SwampyBog_winslow/Assets/Textures/NightShroom_Normal.png
+- Assets/SwampyBog_winslow/Assets/Textures/texCloudOrganic3.png
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeCover.mat
+- Assets/SwampyBog_winslow/Assets/Meshes/Pipes.blend
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksPortalMaterial.mat
+- Assets/SwampyBog_winslow/Assets/PipeworksNightPostProcess.asset
+- Assets/SwampyBog_winslow/Assets/Textures/texParticleDust2Mask.png
+- Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGCloudRemap.shader
+- Assets/SwampyBog_winslow/Assets/Prefabs/SleepingHollowsDiorama.prefab
+- Assets/Stubbed Shaders/RoR2/Base/Shaders/Environment/HGWaterfall.shader
+- Assets/SwampyBog_winslow/Assets/SurfaceDefs/sdWood.asset
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dccsSwampyBog_DLC1.asset
+- Assets/SwampyBog_winslow/Assets/Textures/Terrain_Rock.png
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dpSwampyBog_A.asset
+- Assets/SwampyBog_winslow/Assets/Meshes/spmDanglingMossCluster_LOD0.fbx
+- Assets/SwampyBog_winslow/Assets/SurfaceDefs/sdWater.asset
+- Assets/SwampyBog_winslow/Assets/Textures/texFluffyCloud1Mask.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightRocks2.mat
+- Assets/SwampyBog_winslow/Assets/Textures/Terrain_Moss.png
+- Assets/SwampyBog_winslow/Assets/Prefabs/Pipe1.prefab
+- Assets/SwampyBog_winslow/Assets/Textures/texBlackbeachDirt.png
+- Assets/SwampyBog_winslow/Assets/Materials/Day/matSnowflakeParticle.mat
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dccsSwampyBogNight_Vanilla_A.asset
+- Assets/SwampyBog_winslow/Assets/Textures/texTLGrassSparce.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightLeaf.mat
+- Assets/SwampyBog_winslow/Assets/Info/swampybog_winslow.asset
+- Assets/SwampyBog_winslow/Assets/Info/GroundNodes.asset
+- Assets/SwampyBog_winslow/Assets/Prefabs/TreeLog_Short.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/Order_Crown.prefab
+- Assets/SwampyBog_winslow/Assets/Textures/texFluffyCloud4Mask.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightTree.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksMegaPlatform1.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Day/spmDanglingMossDioramaSpecific.mat
+- Assets/SwampyBog_winslow/Assets/Meshes/DioRing.blend
 - Assets/SwampyBog_winslow/Assets/Prefabs/Pipe_Cluster2.prefab
 - Assets/SwampyBog_winslow/Assets/Prefabs/Rocks1.prefab
-- Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGOpaqueCloudRemap.shader
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dpSwampyBog_A.asset
+- Assets/SwampyBog_winslow/Assets/Materials/Day/TreeBranch.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksDistantCloud2.mat
 - Assets/SwampyBog_winslow/Assets/PipeworksPostProcess.asset
-- Assets/SwampyBog_winslow/Assets/Textures/texFWBricks1.png
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dpSwampyBogNight_A.asset
 - Assets/SwampyBog_winslow/Assets/Textures/LargeWave.png
-- Assets/SwampyBog_winslow/Assets/Prefabs/Pipe2.prefab
+- Assets/SwampyBog_winslow/Assets/Materials/Day/matEscapePod.mat
 - Assets/SwampyBog_winslow/Assets/SurfaceDefs/sdIce.asset
-- Packages/com.unity.postprocessing/PostProcessing/Gizmos/PostProcessLayer.png
+- Assets/SwampyBog_winslow/Assets/Textures/texMagmaCloud.png
 - Assets/SwampyBog_winslow/Assets/Meshes/propShrine2.blend
-- Assets/SwampyBog_winslow/Assets/Textures/texNormalTiles.png
-- Assets/SwampyBog_winslow/Assets/Materials/PipeworksTerrainMaterial.mat
-- Assets/SwampyBog_winslow/Assets/Prefabs/COLLISION_Square1.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/Walkway1.prefab
+- Assets/SwampyBog_winslow/Assets/Materials/Night/matFirefly.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightTree2.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightWater.mat
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dccsSwampyBog_DLC3.asset
 - Assets/SwampyBog_winslow/Assets/Meshes/COLLISION_Square1.fbx
 - Assets/SwampyBog_winslow/Assets/Prefabs/PipeCover.prefab
+- Assets/SwampyBog_winslow/Assets/Meshes/Grass.fbx
 - Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGDistortion.shader
-- Assets/SwampyBog_winslow/Assets/Prefabs/TreeLog_Long.prefab
+- Assets/SwampyBog_winslow/Assets/Textures/texSmokePuffSmallNormal.png
+- Assets/SwampyBog_winslow/Assets/Prefabs/Slope_Wide.prefab
+- Assets/SwampyBog_winslow/Assets/Textures/texGlowPaintMask.png
 - Assets/SwampyBog_winslow/Assets/Prefabs/StoneMegaPlatformLayered.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/Grass.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/WaterFootstep.prefab
 - Assets/SwampyBog_winslow/Assets/Textures/Terrain_NormalMap.png
-- Assets/SwampyBog_winslow/Assets/Textures/MetalRust_Normal.png
-- Assets/SwampyBog_winslow/Assets/Meshes/Pillar1.blend
+- Assets/SwampyBog_winslow/Assets/Meshes/ProviShrine.blend
 - Assets/SwampyBog_winslow/Assets/Textures/texNormalInvertConeFade.png
 - Assets/Wwise/ScriptableObjects/State/0C5B8D77-17D5-4B15-9CB2-463CEBCDF8DE.asset
 - Assets/SwampyBog_winslow/Assets/Info/Music/StageTrack.asset
 - Assets/SwampyBog_winslow/Assets/Textures/texFSLichen3.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightWaterfall.mat
+- Assets/Stubbed Shaders/RoR2/Base/Shaders/Speedtree Override/SpeedTreeCustom.shader
 - Assets/SwampyBog_winslow/Assets/Textures/texRampDroneFire.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightGrassSparse.mat
 - Assets/SwampyBog_winslow/Assets/Meshes/Tower1.fbx
 - Assets/SwampyBog_winslow/Assets/SurfaceDefs/sdStone.asset
-- Assets/Wwise/ScriptableObjects/StateGroup/589C497D-7C75-4A4A-A334-D3EEBDE5D455.asset
+- Assets/SwampyBog_winslow/Assets/Textures/FireflyColorramp.png
+- Assets/SwampyBog_winslow/Assets/Textures/texTrimSheetMetalVibrant.png
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dccsSwampyBogNight_Vanilla_A.asset
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksGolem.mat
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dccsSwampyBog_DLC3.asset
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksDistantCloud1.mat
+- Assets/SwampyBog_winslow/Assets/Textures/texFluffyCloud2Mask.png
 - Assets/Wwise/ScriptableObjects/State/2EBA0AAB-1F90-49CA-B45D-48E8339A96F8.asset
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dccsSwampyBog_DLC2.asset
 - Assets/SwampyBog_winslow/Assets/Prefabs/Pillar1.prefab
-- Assets/Stubbed Shaders/Calm Water/Shaders/CalmWater - DX11.shader
-- Assets/SwampyBog_winslow/Assets/Materials/PipeworksMetal.mat
-- Assets/SwampyBog_winslow/Assets/Meshes/TreeLogs.fbx
-- Assets/SwampyBog_winslow/Assets/Materials/matAncientLoft_Water.mat
-- Assets/SwampyBog_winslow/Assets/Materials/PipeworksRocks1.mat
-- Assets/SwampyBog_winslow/Assets/Meshes/GeyserBasis.fbx
-- Assets/SwampyBog_winslow/Assets/Materials/matInverseDistortion.mat
-- Assets/SwampyBog_winslow/Assets/Textures/texSmokePuffSpeckledNormal.png
-- Assets/SwampyBog_winslow/Assets/Materials/PipeworksTree.mat
+- Assets/SwampyBog_winslow/Assets/Textures/nz.png
 - Assets/SwampyBog_winslow/Assets/Textures/Tree.png
-- Assets/SwampyBog_winslow/Assets/Prefabs/propShrine2.prefab
-- Assets/SwampyBog_winslow/Assets/Info/dccsSwampyBogMonsters.asset
-- Assets/SwampyBog_winslow/Assets/Info/dccspoolSwampyBogMonsters.asset
-- Assets/SwampyBog_winslow/Assets/Materials/PipeworksMegaPlatform2.mat
+- Assets/SwampyBog_winslow/Assets/Meshes/TreeLogs.fbx
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksRocks1.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightDistantCloud1.mat
+- Assets/SwampyBog_winslow/Assets/Info/Logs.Stages.swampybognight_winslow.asset
+- Assets/SwampyBog_winslow/Assets/Meshes/GeyserBasis.fbx
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dpSwampyBogNight.asset
+- Assets/SwampyBog_winslow/Assets/Textures/texSmokePuffSpeckledNormal.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/ProviShrine1.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightDistantCloud4.mat
+- Assets/SwampyBog_winslow/Assets/Meshes/Vases.fbx
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksGrassSparse.mat
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dccsSwampyBogNight_Vanilla.asset
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksMegaPlatform2.mat
+- Assets/SwampyBog_winslow/Assets/Textures/texCloudOrganic2.png
 - Assets/SwampyBog_winslow/Assets/SurfaceDefs/sdDirt.asset
-- Assets/SwampyBog_winslow/Assets/Materials/matCommandoDiffuse.mat
+- Assets/SwampyBog_winslow/Assets/Textures/texRampTwotoneEnvironment.png
+- Assets/SwampyBog_winslow/Assets/Prefabs/StagnantPipeworksDiorama.prefab
+- Assets/SwampyBog_winslow/Assets/Textures/spmDanglingMossCluster_Atlas_Normal.png
 - Assets/SwampyBog_winslow/Assets/Meshes/Terrain.blend
-- Assets/SwampyBog_winslow/Assets/Textures/MetalLightRust.png
 - Assets/SwampyBog_winslow/Assets/SurfaceDefs/sdMetal.asset
-- Assets/SwampyBog_winslow/Assets/Textures/Terrain_GreenChannel.png
+- Assets/SwampyBog_winslow/Assets/Textures/MetalLightRust.png
 - Assets/SwampyBog_winslow/Assets/Textures/texAncientLoft2_splat.png
+- Assets/SwampyBog_winslow/Assets/Textures/Terrain_GreenChannel.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightMegaPlatform2.mat
 - Assets/Wwise/ScriptableObjects/StateGroup/72A094E5-7F64-41B4-9077-0C2F61F6BC33.asset
-- Assets/SwampyBog_winslow/Assets/Textures/texRampTwotone.png
-- Assets/SwampyBog_winslow/Assets/Textures/texCloudWaterFoam2.png
-- Assets/SwampyBog_winslow/Assets/Info/Music/BossTrack.asset
-- Assets/SwampyBog_winslow/Assets/Textures/Waves_N.png
-- Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGStandard.shader
-- Assets/SwampyBog_winslow/Assets/Textures/texAncientLoft_splat.png
-- Assets/SwampyBog_winslow/Assets/Materials/PipeworksSkybox.mat
-- Assets/SwampyBog_winslow/Assets/Prefabs/propShrine1.prefab
-- Assets/SwampyBog_winslow/Assets/Textures/texRampWhiteAlphaOnly.png
-- Assets/SwampyBog_winslow/Assets/Prefabs/Pipe_Big1.prefab
-- Assets/SwampyBog_winslow/Assets/Prefabs/StoneMegaPlatform.prefab
-- Assets/SwampyBog_winslow/Assets/Info/AirNodes.asset
-- Assets/SwampyBog_winslow/Assets/Info/dccspoolSwampyBogInteractables.asset
-- Assets/SwampyBog_winslow/Assets/Textures/texCommandoPaletteEmission.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/matOpaqueDustSpeckledUnlit2.mat
 - Assets/Wwise/ScriptableObjects/State/00C735FB-D988-40B8-8125-2259AE24A2BD.asset
+- Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGStandard.shader
+- Assets/SwampyBog_winslow/Assets/Textures/Waves_N.png
+- Assets/SwampyBog_winslow/Assets/Prefabs/propShrine1.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/NightShroom_ClusterLit.prefab
+- Assets/SwampyBog_winslow/Assets/Textures/texCommandoPaletteEmission.png
 - Assets/SwampyBog_winslow/Assets/Textures/Canal_Cover_NormalMap.png
 - Assets/SwampyBog_winslow/Assets/Meshes/PipeCover.blend
-- Assets/SwampyBog_winslow/Assets/Meshes/Rocks.fbx
-- Assets/SwampyBog_winslow/Assets/Textures/Terrain_RockWall.png
-- Assets/SwampyBog_winslow/Assets/Materials/matOpaqueDustSpeckledUnlit.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksDistantCloud4.mat
+- Assets/SwampyBog_winslow/Assets/Textures/NightShroom_Color.png
 - Assets/SwampyBog_winslow/Assets/Prefabs/Pipe_Big2.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/Water Plane.prefab
 - Assets/SwampyBog_winslow/Assets/Prefabs/Geyser.prefab
-- Assets/SwampyBog_winslow/Assets/Info/dccsSwampyBogInteractables.asset
-- Assets/SwampyBog_winslow/Assets/Meshes/StoneMegaPlatform.blend
+- Assets/SwampyBog_winslow/Assets/Meshes/StoneMonastery_Corpse.blend
+- Assets/SwampyBog_winslow/Assets/Textures/texTestFog.png
+- Assets/SwampyBog_winslow/Assets/Prefabs/NightShroomLit.prefab
+- Assets/SwampyBog_winslow/Assets/Info/Interactables/I_dccsSwampyBog_Vanilla.asset
+- Assets/SwampyBog_winslow/Assets/Prefabs/Pebbles2.prefab
+- Assets/SwampyBog_winslow/Assets/PipeworksCavePostProcess.asset
 - Assets/SwampyBog_winslow/Assets/Prefabs/Tower1.prefab
-- Assets/Wwise/ScriptableObjects/Soundbank/914FC0F1-873B-43E0-BF75-3E67BDF3DB49.asset
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightTerrainMaterial.mat
+- Assets/SwampyBog_winslow/Assets/PipeworksUnderwaterPostProcess.asset
 - Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGTriplanarTerrainBlend.shader
-- Assets/SwampyBog_winslow/Assets/Textures/texFSLichen1.png
-- Assets/SwampyBog_winslow/Assets/Prefabs/Rocks2.prefab
-- Assets/SwampyBog_winslow/Assets/Prefabs/Pipe_Cluster1.prefab
+- Assets/SwampyBog_winslow/Assets/Textures/pz.png
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightRocks1.mat
+- Assets/SwampyBog_winslow/Assets/Prefabs/CeilingShroomUnlit.prefab
+- Assets/SwampyBog_winslow/Assets/Info/GroundNodesNight.asset
 - Assets/SwampyBog_winslow/Assets/Textures/MetalRust.png
-- Assets/SwampyBog_winslow/Assets/Materials/PipeCover.mat
-- Assets/SwampyBog_winslow/Assets/Meshes/Pipes.blend
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksWaterfall.mat
+- Assets/SwampyBog_winslow/Assets/Textures/spmDanglingMossCluster_Atlas.png
+- Assets/SwampyBog_winslow/Assets/Materials/Day/matRain.mat
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dccsSwampyBog_Vanilla_A.asset
 - Assets/SwampyBog_winslow/Assets/Textures/texRampCaptainAirstrike.png
+- Assets/SwampyBog_winslow/Assets/Info/Monsters/M_dpSwampyBogNight_A.asset
 - Assets/SwampyBog_winslow/Assets/Prefabs/propShrine1_Water Variant.prefab
-- Assets/SwampyBog_winslow/Assets/SurfaceDefs/sdWood.asset
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksDistantCloud3.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Night/spmDanglingMossDioramaSpecificNight.mat
+- Assets/SwampyBog_winslow/Assets/Materials/PipeworksNight.lighting
+- Assets/SwampyBog_winslow/Assets/Meshes/Walkway1.fbx
+- Assets/SwampyBog_winslow/Assets/Prefabs/Roof.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/Rubble.prefab
+- Assets/SwampyBog_winslow/Assets/Prefabs/Vase_Group3.prefab
 - Assets/SwampyBog_winslow/Assets/Textures/texSmokePuffSpeckledDisplacement.png
 - Assets/SwampyBog_winslow/Assets/Meshes/propShrine1.blend
-- Assets/SwampyBog_winslow/Assets/Textures/Terrain_Rock.png
 - Assets/Wwise/ScriptableObjects/StateGroup/96F5427A-E212-4455-8C2E-BDFBF84BF7A4.asset
+- Assets/SwampyBog_winslow/Assets/Meshes/Wallshrooms.fbx
 - Assets/Wwise/ScriptableObjects/State/3DD70BF3-E3AD-450B-9594-60835BD1A30C.asset
 - Assets/SwampyBog_winslow/Assets/Meshes/FOUR.fbx
-- Assets/SwampyBog_winslow/Assets/Textures/Terrain_Moss.png
-- Assets/SwampyBog_winslow/Assets/Prefabs/Pipe1.prefab
-- Assets/SwampyBog_winslow/Assets/Materials/PipeworksTree2.mat
-- Assets/SwampyBog_winslow/Assets/Info/swampybog_winslow.asset
-- Assets/SwampyBog_winslow/Assets/Materials/PipeworksRocks2.mat
-- Assets/SwampyBog_winslow/Assets/Info/GroundNodes.asset
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksWater.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksTree2.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Night/PipeworksNightPortalMaterial.mat
+- Assets/SwampyBog_winslow/Assets/Textures/texShockwaveRing2Mask.png
+- Assets/SwampyBog_winslow/Assets/Textures/WaterfallNight.png
+- Assets/SwampyBog_winslow/Assets/Textures/Waterfall.png
+- Assets/SwampyBog_winslow/Assets/Materials/Day/matOpaqueWaterSplash.mat
+- Assets/SwampyBog_winslow/Assets/Materials/Day/PipeworksRocks2.mat
 Dependencies: []

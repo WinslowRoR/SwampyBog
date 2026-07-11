@@ -52,9 +52,9 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID MINOTAUR = 2719492022U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID SCARLETDRIZZLE = 97421041U;
-                static const AkUniqueID SWAMPYBOG_BOSSSONG = 3086485471U;
             } // namespace STATE
         } // namespace SWAMPYBOG_GAMEPLAYSONGCHOICE
 

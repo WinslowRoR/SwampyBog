@@ -29,6 +29,7 @@ namespace SwampyBog_winslow
         private static AssetBundle contentAssetBundle;
 
         public static SceneDef SwampyBogSceneDef;
+        public static SceneDef SwampyBogNightSceneDef;
 
         public IEnumerator LoadStaticContentAsync(LoadStaticContentAsyncArgs args)
         {
@@ -48,6 +49,7 @@ namespace SwampyBog_winslow
             yield return LoadAllAssetsAsync(contentAssetBundle, args.progressReceiver, (Action<SceneDef[]>)((assets) =>
             {
                 SwampyBogSceneDef = assets.First(sceneDef => sceneDef.cachedName == "swampybog_winslow");
+                SwampyBogNightSceneDef = assets.First(sceneDef => sceneDef.cachedName == "swampybognight_winslow");
                 SwampyBog_winslowContentPack.sceneDefs.Add(assets);
             }));
 
@@ -62,7 +64,8 @@ namespace SwampyBog_winslow
                 SwampyBog_winslowContentPack.unlockableDefs.Add(assets);
             }));
 
-            R2API.StageRegistration.RegisterSceneDefToNormalProgression(SwampyBogSceneDef);
+            R2API.StageRegistration.RegisterSceneDefToNormalProgression(SwampyBogSceneDef, 1, true, false);
+            R2API.StageRegistration.RegisterSceneDefToNormalProgression(SwampyBogNightSceneDef, 1, false, true);
         }
 
         private IEnumerator LoadAssetBundle(string assetBundleFullPath, IProgress<float> progress, Action<AssetBundle> onAssetBundleLoaded)
@@ -122,10 +125,11 @@ namespace SwampyBog_winslow
             SwampyBog_winslowMain.LogInfo($"AddBasePath result: {akResult} | Path: {soundbanksFolderPath}");
 
             akResult = AkSoundEngine.LoadBank(InitSoundBankFileName, out var _);
-            SwampyBog_winslowMain.LogInfo($"LoadBank {InitSoundBankFileName}: {akResult}");
 
+            akResult = AkSoundEngine.LoadBank(SoundsSoundBankFileName, out var _);
+            
             akResult = AkSoundEngine.LoadBank(MusicSoundBankFileName, out var _);
-            SwampyBog_winslowMain.LogInfo($"LoadBank {MusicSoundBankFileName}: {akResult}");
+            
         }
 
     }

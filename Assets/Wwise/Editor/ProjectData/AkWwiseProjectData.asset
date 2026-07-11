@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 46e8a1e2712a4240ab3fe6c282c72791
     GuidInternal: 
-    m_lastTime: -8584201574787509290
+    m_lastTime: -8584200736699909431
     List:
     - name: SwampyBogMusic
       guid: f1c04f913b87e043bf753e67bdf3db49
@@ -82,6 +82,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: f1c04f913b87e043bf753e67bdf3db49
       Path: SoundBanks\Default Work Unit\SwampyBogMusic
+    - name: SwampyBogSounds
+      guid: 7799cbdca4417a408ee10b9e3b1137e0
+      id: 1633116420
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 46e8a1e2712a4240ab3fe6c282c72791
+      - ElementName: SwampyBogSounds
+        ObjectType: 7
+        guid: 7799cbdca4417a408ee10b9e3b1137e0
+      Path: SoundBanks\Default Work Unit\SwampyBogSounds
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -94,8 +108,76 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 80b0cdb1a46f7c479a4b5e5c69a75b1d
     GuidInternal: 
-    m_lastTime: -8584201574787192649
+    m_lastTime: -8584186694911902607
     List:
+    - name: SwampyBog_Ambience_Start
+      guid: 9fb82d46c0815d429d5da640e73a905a
+      id: 630866258
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b0cdb1a46f7c479a4b5e5c69a75b1d
+      - ElementName: SwampyBog_Ambience_Start
+        ObjectType: 3
+        guid: 9fb82d46c0815d429d5da640e73a905a
+      Path: Events\Default Work Unit\SwampyBog_Ambience_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SwampyBog_Ambience_Stop
+      guid: 21930acac324784eb426b414c034fa00
+      id: 1557897226
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b0cdb1a46f7c479a4b5e5c69a75b1d
+      - ElementName: SwampyBog_Ambience_Stop
+        ObjectType: 3
+        guid: 21930acac324784eb426b414c034fa00
+      Path: Events\Default Work Unit\SwampyBog_Ambience_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SwampyBog_AmbienceNight_Start
+      guid: 58b5a8b8dce6dd48a2a1959c452d44a4
+      id: 2728836222
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b0cdb1a46f7c479a4b5e5c69a75b1d
+      - ElementName: SwampyBog_AmbienceNight_Start
+        ObjectType: 3
+        guid: 58b5a8b8dce6dd48a2a1959c452d44a4
+      Path: Events\Default Work Unit\SwampyBog_AmbienceNight_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SwampyBog_AmbienceNight_Stop
+      guid: c0e6e56f4517034cab53ed99f59ca6dc
+      id: 1929284510
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80b0cdb1a46f7c479a4b5e5c69a75b1d
+      - ElementName: SwampyBog_AmbienceNight_Stop
+        ObjectType: 3
+        guid: c0e6e56f4517034cab53ed99f59ca6dc
+      Path: Events\Default Work Unit\SwampyBog_AmbienceNight_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: SwampyBog_Pause_Music
       guid: 3ac8b239c3f40b46b39fbbb143907380
       id: 2356596639
@@ -159,7 +241,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: b159486172dc824d8ca119cab6db328a
     GuidInternal: 
-    m_lastTime: -8584201574787303627
+    m_lastTime: -8584188794207021349
     List:
     - name: playerHealth
       guid: b5eb85442b4ac842a8330e1e1b0a7a06
@@ -189,6 +271,20 @@ MonoBehaviour:
         ObjectType: 13
         guid: bd280c02c227af43aa22b1639dc2aa90
       Path: Game Parameters\Default Work Unit\teleporterPlayerStatus
+    - name: teleporterProximity
+      guid: 40d27741da1b21448f574d09949f4373
+      id: 1924079656
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b159486172dc824d8ca119cab6db328a
+      - ElementName: teleporterProximity
+        ObjectType: 13
+        guid: 40d27741da1b21448f574d09949f4373
+      Path: Game Parameters\Default Work Unit\teleporterProximity
     - name: Volume_Master
       guid: 6f415299d4fe1649b650ae22863eb780
       id: 3695994288
@@ -243,7 +339,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: af8df545505da14ab0c688f89fe48c21
     GuidInternal: 
-    m_lastTime: -8584201574787082331
+    m_lastTime: -8584189530730049137
     List:
     - name: bossStatus
       guid: e594a072647fb44190770c2f61f6bc33
@@ -424,6 +520,22 @@ MonoBehaviour:
         guid: 7d499c58757c4a4aa334d3eebde5d455
       Path: States\Default Work Unit\SwampyBog_gameplaySongChoice
       values:
+      - name: BossSong
+        guid: da10269835b2774b94cd2e1ab82c49b5
+        id: 833170957
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: af8df545505da14ab0c688f89fe48c21
+        - ElementName: SwampyBog_gameplaySongChoice
+          ObjectType: 9
+          guid: 7d499c58757c4a4aa334d3eebde5d455
+        - ElementName: BossSong
+          ObjectType: 8
+          guid: da10269835b2774b94cd2e1ab82c49b5
       - name: None
         guid: bac7136dcf160441bbf248d677454b8a
         id: 748895195
@@ -456,22 +568,6 @@ MonoBehaviour:
         - ElementName: ScarletDrizzle
           ObjectType: 8
           guid: ab0aba2e901fca49b45d48e8339a96f8
-      - name: swampyBog_BossSong
-        guid: da10269835b2774b94cd2e1ab82c49b5
-        id: 3086485471
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: af8df545505da14ab0c688f89fe48c21
-        - ElementName: SwampyBog_gameplaySongChoice
-          ObjectType: 9
-          guid: 7d499c58757c4a4aa334d3eebde5d455
-        - ElementName: swampyBog_BossSong
-          ObjectType: 8
-          guid: da10269835b2774b94cd2e1ab82c49b5
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -504,7 +600,7 @@ MonoBehaviour:
     m_lastTime: -8584207692578096420
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0a0000000b0000000d0000000f00000010000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000d0000000f00000010000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

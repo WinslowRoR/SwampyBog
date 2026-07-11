@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	630866258	SwampyBog_Ambience_Start			\Default Work Unit\SwampyBog_Ambience_Start	
+	1557897226	SwampyBog_Ambience_Stop			\Default Work Unit\SwampyBog_Ambience_Stop	
+	1929284510	SwampyBog_AmbienceNight_Stop			\Default Work Unit\SwampyBog_AmbienceNight_Stop	
+	2728836222	SwampyBog_AmbienceNight_Start			\Default Work Unit\SwampyBog_AmbienceNight_Start	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	843857764	Ambience	C:\Users\gonto\OneDrive\Dokumenty\Tacet Library\Saves\Unity Project\SwampyBog\SwampyBog_WwiseProject\.cache\Windows\SFX\SwampyBog_Ambience_0F487037.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\Ambience		3171676
+	1002227621	AmbienceNight	C:\Users\gonto\OneDrive\Dokumenty\Tacet Library\Saves\Unity Project\SwampyBog\SwampyBog_WwiseProject\.cache\Windows\SFX\PipeworksAmbienceNight_11703E61.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master Mixer\Sfx Mixer\AmbienceNight		3530403
+

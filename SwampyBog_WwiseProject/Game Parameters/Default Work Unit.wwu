@@ -12,6 +12,13 @@
 				<GameParameter Name="Volume_Master" ID="{9952416F-FED4-4916-B650-AE22863EB780}"/>
 				<GameParameter Name="Volume_MSX" ID="{A30EB488-7D1D-4CB7-938C-9240D0FF5402}"/>
 				<GameParameter Name="Volume_SFX" ID="{86687D33-80B5-498A-A213-9110EAB7E21D}"/>
+				<GameParameter Name="teleporterProximity" ID="{4177D240-1BDA-4421-8F57-4D09949F4373}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

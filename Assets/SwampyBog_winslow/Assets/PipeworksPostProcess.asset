@@ -1,42 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8438342491540351558
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f6f3f7c722b4544b97e3c75840aa33, type: 3}
-  m_Name: AutoExposure
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  filtering:
-    overrideState: 1
-    value: {x: 50, y: 95}
-  minLuminance:
-    overrideState: 1
-    value: 0
-  maxLuminance:
-    overrideState: 1
-    value: 0
-  keyValue:
-    overrideState: 1
-    value: 1
-  eyeAdaptation:
-    overrideState: 1
-    value: 0
-  speedUp:
-    overrideState: 1
-    value: 2
-  speedDown:
-    overrideState: 1
-    value: 1
 --- !u!114 &-7107322708088556339
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -102,7 +65,6 @@ MonoBehaviour:
   - {fileID: 304410604676740706}
   - {fileID: 1673947851331894821}
   - {fileID: -7107322708088556339}
-  - {fileID: -8438342491540351558}
 --- !u!114 &304410604676740706
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -124,13 +86,13 @@ MonoBehaviour:
     value: 0.75
   fogPower:
     overrideState: 1
-    value: 0.95
+    value: 1
   fogZero:
     overrideState: 1
-    value: 0.1
+    value: 0.08
   fogOne:
     overrideState: 1
-    value: 0.001
+    value: 0.004
   fogHeightStart:
     overrideState: 0
     value: 0
@@ -142,16 +104,16 @@ MonoBehaviour:
     value: 0
   fogColorStart:
     overrideState: 1
-    value: {r: 0.48450357, g: 0.5647059, b: 0.42745098, a: 1}
+    value: {r: 0.48627454, g: 0.5647059, b: 0.427451, a: 1}
   fogColorMid:
     overrideState: 1
-    value: {r: 0.45882353, g: 0.50980395, b: 0.41568628, a: 1}
+    value: {r: 0.40784317, g: 0.4666667, b: 0.35686275, a: 1}
   fogColorEnd:
     overrideState: 1
-    value: {r: 0.2, g: 0.2509804, b: 0.20784314, a: 1}
+    value: {r: 0.19607845, g: 0.2509804, b: 0.20784315, a: 1}
   skyboxStrength:
     overrideState: 1
-    value: 1
+    value: 0.5
 --- !u!114 &1673947851331894821
 MonoBehaviour:
   m_ObjectHideFlags: 3

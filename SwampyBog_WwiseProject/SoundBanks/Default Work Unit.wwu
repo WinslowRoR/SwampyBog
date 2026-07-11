@@ -10,6 +10,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SwampyBogSounds" ID="{DCCB9977-41A4-407A-8EE1-0B9E3B1137E0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Master Mixer" ID="{A75D94DC-24E2-4131-AA79-30F51278300D}" WorkUnitID="{7EB0B149-B31B-48F2-BA27-CCA610A6C363}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

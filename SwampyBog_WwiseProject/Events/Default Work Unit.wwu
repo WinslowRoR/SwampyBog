@@ -42,6 +42,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SwampyBog_Ambience_Start" ID="{462DB89F-81C0-425D-9D5D-A640E73A905A}">
+					<ChildrenList>
+						<Action Name="" ID="{55083976-C711-4BC8-B18A-2C90FA62B570}" ShortID="198782092">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{9DC7A7B9-C813-4084-A6BF-56432B1A2F93}" WorkUnitID="{7EB0B149-B31B-48F2-BA27-CCA610A6C363}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SwampyBog_Ambience_Stop" ID="{CA0A9321-24C3-4E78-B426-B414C034FA00}">
+					<ChildrenList>
+						<Action Name="" ID="{74B64067-EA8C-4F64-B43C-622C07613F7A}" ShortID="720399101">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{9DC7A7B9-C813-4084-A6BF-56432B1A2F93}" WorkUnitID="{7EB0B149-B31B-48F2-BA27-CCA610A6C363}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SwampyBog_AmbienceNight_Start" ID="{B8A8B558-E6DC-48DD-A2A1-959C452D44A4}">
+					<ChildrenList>
+						<Action Name="" ID="{FBE8AF04-1F1B-46EB-8BC4-2C90B1A991A8}" ShortID="985055998">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbienceNight" ID="{0F6B28C1-7328-459E-ACEE-36668E57B35D}" WorkUnitID="{7EB0B149-B31B-48F2-BA27-CCA610A6C363}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SwampyBog_AmbienceNight_Stop" ID="{6FE5E6C0-1745-4C03-AB53-ED99F59CA6DC}">
+					<ChildrenList>
+						<Action Name="" ID="{959C5DA4-9E22-4265-A301-03F38B53A920}" ShortID="250616559">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbienceNight" ID="{0F6B28C1-7328-459E-ACEE-36668E57B35D}" WorkUnitID="{7EB0B149-B31B-48F2-BA27-CCA610A6C363}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

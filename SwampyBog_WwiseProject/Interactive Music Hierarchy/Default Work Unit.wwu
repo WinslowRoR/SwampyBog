@@ -19,6 +19,9 @@
 									</PropertyList>
 									<ChildrenList>
 										<MusicTransition Name="Transition" ID="{3B22B58F-9631-498A-ACD7-64690279F5DB}">
+											<PropertyList>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+											</PropertyList>
 											<TransitionInfo/>
 										</MusicTransition>
 									</ChildrenList>
@@ -59,6 +62,385 @@
 									</Custom>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicPlaylistContainer Name="BossSong" ID="{B3B9DE7C-24F7-4EEB-B3EE-E08320260014}" ShortID="39049509">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3553D6E-8CAA-41A1-8BDB-B809462B8541}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{57BA06A3-E7B6-4914-B1E6-8C44F15AD0F3}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{A2D15766-D9A4-47EC-85B9-E3472F1465DA}" ShortID="648587399">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{97932B43-F828-4E7C-8661-B9EB17046283}" ShortID="437562905">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="BossSongStart" ID="{D0D15A6B-FB97-4FC0-B883-480B2D7C8579}" WorkUnitID="{405D52B1-A9FB-4E49-ABFC-A083DCC5D3C5}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{35B45C7A-B665-43B9-BCB3-A93CF2E71E75}" ShortID="950946078">
+															<PropertyList>
+																<Property Name="LoopCount" Type="int16" Value="0"/>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="BossSongLoop" ID="{9B3B9F54-F9B9-415E-BD33-CC5C41137FFF}" WorkUnitID="{405D52B1-A9FB-4E49-ABFC-A083DCC5D3C5}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{FF9C85CD-92A5-424B-8AFC-04FC3D3FFFD3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{D0E7D84C-CD89-4908-8CE2-6F5B70FA4DB7}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="BossSongStart" ID="{D0D15A6B-FB97-4FC0-B883-480B2D7C8579}" ShortID="408735069">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="112437.916952203"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3553D6E-8CAA-41A1-8BDB-B809462B8541}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{57BA06A3-E7B6-4914-B1E6-8C44F15AD0F3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="BossSongStart" ID="{5945F6A4-B688-4CCC-98F5-427105E04CA3}" ShortID="614678226">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{57BA06A3-E7B6-4914-B1E6-8C44F15AD0F3}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{DC54EC94-C337-47FA-AEAE-7AC63AC144D0}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stagnantPipeworksBossStart" ID="{4A459AAE-B686-4018-A601-06F871CEF914}">
+															<Language>SFX</Language>
+															<AudioFile>stagnantPipeworksBossStart.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="208180293"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{B7A9C0D1-3873-4847-800F-117B9CDCD026}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="stagnantPipeworksBossStart" ID="{B48EB3B0-BF47-4BDE-8DC4-E8B334B855A9}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="6620.68027210884"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="stagnantPipeworksBossStart" ID="{4A459AAE-B686-4018-A601-06F871CEF914}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{2FFC205A-EE0A-4E54-8B79-AA14F292DFF0}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{C5A4D495-7A4F-4DF4-8EED-2911E2FA98E3}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="6620.68027210884"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+										<MusicSegment Name="BossSongLoop" ID="{9B3B9F54-F9B9-415E-BD33-CC5C41137FFF}" ShortID="1069872759">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="208586.465014759"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3553D6E-8CAA-41A1-8BDB-B809462B8541}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{57BA06A3-E7B6-4914-B1E6-8C44F15AD0F3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="BossSongLoop" ID="{D5B230AD-64E8-4CFE-BAE3-91A4C42DDF1D}" ShortID="771792091">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{57BA06A3-E7B6-4914-B1E6-8C44F15AD0F3}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{6EED623A-3E03-4646-B337-08B578441CA9}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stagnantPipeworksBossLoop" ID="{3ADCC6AB-49D7-4B70-BE4D-034178F3C3CE}">
+															<Language>SFX</Language>
+															<AudioFile>stagnantPipeworksBossLoop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="385907508"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{D95B70C4-E4FD-4BB3-95D5-D9927BB66122}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="stagnantPipeworksBossLoop" ID="{28E0C930-988B-4673-98A1-A0448A8DB8BE}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="152275.873015873"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="stagnantPipeworksBossLoop" ID="{3ADCC6AB-49D7-4B70-BE4D-034178F3C3CE}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{1DD1575C-9401-495A-AEAA-C758BDFFF431}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{4838B28D-9561-44DE-A9ED-A8098BF4ABF7}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="152275.873015873"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="BossSongEnd" ID="{745C830B-D05C-4F56-88DC-AF584C361A93}" ShortID="36081943">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3553D6E-8CAA-41A1-8BDB-B809462B8541}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{57BA06A3-E7B6-4914-B1E6-8C44F15AD0F3}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{D00203EF-6273-4020-A4AF-D89680498365}" ShortID="45355404">
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{B3668C03-CFC6-4184-BFE1-02C02591B6C5}" ShortID="128344476">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="BossSongEnd" ID="{D1A5653D-80DD-4F3C-82D4-92223775731D}" WorkUnitID="{405D52B1-A9FB-4E49-ABFC-A083DCC5D3C5}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{F89C4FB7-87B0-49A1-B982-9A82C035EEAD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{637ED5E1-DE2B-4906-899A-AED313EE2439}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="BossSongEnd" ID="{D1A5653D-80DD-4F3C-82D4-92223775731D}" ShortID="337830852">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="46796.4243286664"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C3553D6E-8CAA-41A1-8BDB-B809462B8541}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{57BA06A3-E7B6-4914-B1E6-8C44F15AD0F3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="BossSongEnd" ID="{0556913E-188A-427B-89CF-E2E41BB14C41}" ShortID="491429605">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{57BA06A3-E7B6-4914-B1E6-8C44F15AD0F3}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{C5E6DEDD-8256-4F55-9F96-A6CB1B68A21C}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stagnantPipeworksBossEnd" ID="{7B0D9B14-DD78-42CD-8832-4F20141141B0}">
+															<Language>SFX</Language>
+															<AudioFile>stagnantPipeworksBossEnd.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="296031441"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{C70DC428-4291-47F9-853A-2A728286A526}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="stagnantPipeworksBossEnd" ID="{69113C65-1FDD-4A4A-B58D-62F7BF6F535D}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="8275.87301587302"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="stagnantPipeworksBossEnd" ID="{7B0D9B14-DD78-42CD-8832-4F20141141B0}"/>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{5BC6EAF0-77B4-4495-B9CA-1CF9211EE9D5}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{8085FD13-E011-4228-885B-CAC75AD4A8DF}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="8275.87301587302"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="Arguments">
 									<Reference>
@@ -72,10 +454,15 @@
 									<Reference>
 										<Local>
 											<MultiSwitchEntry Name="" ID="{E9E6F4D3-5D43-4B4A-AE56-FBF92EA972CB}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="BossSong" ID="{B3B9DE7C-24F7-4EEB-B3EE-E08320260014}" WorkUnitID="{405D52B1-A9FB-4E49-ABFC-A083DCC5D3C5}"/>
+													</Reference>
+												</ReferenceList>
 												<ObjectLists>
 													<ObjectList Name="EntryPath">
 														<Reference>
-															<ObjectRef Name="swampyBog_BossSong" ID="{982610DA-B235-4B77-94CD-2E1AB82C49B5}" WorkUnitID="{45F58DAF-5D50-4AA1-B0C6-88F89FE48C21}"/>
+															<ObjectRef Name="BossSong" ID="{982610DA-B235-4B77-94CD-2E1AB82C49B5}" WorkUnitID="{45F58DAF-5D50-4AA1-B0C6-88F89FE48C21}"/>
 														</Reference>
 														<Reference>
 															<ObjectRef Name="alive" ID="{00C735FB-D988-40B8-8125-2259AE24A2BD}" WorkUnitID="{45F58DAF-5D50-4AA1-B0C6-88F89FE48C21}"/>
@@ -88,10 +475,15 @@
 									<Reference>
 										<Local>
 											<MultiSwitchEntry Name="" ID="{18C67C72-A628-4372-A41A-2B8D022D331B}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="BossSongEnd" ID="{745C830B-D05C-4F56-88DC-AF584C361A93}" WorkUnitID="{405D52B1-A9FB-4E49-ABFC-A083DCC5D3C5}"/>
+													</Reference>
+												</ReferenceList>
 												<ObjectLists>
 													<ObjectList Name="EntryPath">
 														<Reference>
-															<ObjectRef Name="swampyBog_BossSong" ID="{982610DA-B235-4B77-94CD-2E1AB82C49B5}" WorkUnitID="{45F58DAF-5D50-4AA1-B0C6-88F89FE48C21}"/>
+															<ObjectRef Name="BossSong" ID="{982610DA-B235-4B77-94CD-2E1AB82C49B5}" WorkUnitID="{45F58DAF-5D50-4AA1-B0C6-88F89FE48C21}"/>
 														</Reference>
 														<Reference>
 															<ObjectRef Name="dead" ID="{22C26482-AD2F-455E-AA1B-1760C930C168}" WorkUnitID="{45F58DAF-5D50-4AA1-B0C6-88F89FE48C21}"/>
@@ -161,7 +553,24 @@
 										</Reference>
 										<Reference Name="PlaylistRoot">
 											<Custom>
-												<MusicPlaylistItem Name="" ID="{E347B78C-FBEA-4CD4-A54F-638F636409E1}" ShortID="1072203719"/>
+												<MusicPlaylistItem Name="" ID="{E347B78C-FBEA-4CD4-A54F-638F636409E1}" ShortID="1072203719">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{1A3CCD4C-D1F4-4BF5-92F1-E714B8E8661E}" ShortID="427501592">
+															<PropertyList>
+																<Property Name="LoopCount" Type="int16" Value="0"/>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="ScarletDrizzle" ID="{93084A0E-803A-4DB1-8857-452539476D34}" WorkUnitID="{405D52B1-A9FB-4E49-ABFC-A083DCC5D3C5}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
 											</Custom>
 										</Reference>
 										<Reference Name="TransitionRoot">
@@ -183,10 +592,10 @@
 									<ChildrenList>
 										<MusicSegment Name="ScarletDrizzle" ID="{93084A0E-803A-4DB1-8857-452539476D34}" ShortID="745355599">
 											<PropertyList>
-												<Property Name="EndPosition" Type="Real64" Value="323759.892020153"/>
+												<Property Name="EndPosition" Type="Real64" Value="354284.079030519"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-13</Value>
+														<Value>-8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -228,7 +637,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="stagnantPipeworks_ingame" ID="{B51DB88F-7CD5-41EF-99BB-9A3FCD8388EB}">
+														<AudioFileSource Name="stagnantPipeworks_ingame" ID="{B262DB4A-D5AE-4C1C-82B7-C74EA7D4BC1E}">
 															<Language>SFX</Language>
 															<AudioFile>stagnantPipeworks_ingame.wav</AudioFile>
 															<MediaIDList>
@@ -245,14 +654,13 @@
 																			<ObjectList Name="Clips">
 																				<Reference>
 																					<Local>
-																						<MusicClip Name="stagnantPipeworks_ingame" ID="{73C97955-C4AC-4B3C-A7DA-B33FA9BCFF1C}">
+																						<MusicClip Name="stagnantPipeworks_ingame" ID="{883C330A-5F2F-4F42-9F80-6F8606EE5BA0}">
 																							<PropertyList>
-																								<Property Name="EndTrimOffset" Type="Real64" Value="319200"/>
-																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="316579.160997732"/>
+																								<Property Name="FadeInDuration" Type="Real64" Value="2524.59016393443"/>
 																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																								<Property Name="PlayAt" Type="Real64" Value="5.55111512312578E-14"/>
 																							</PropertyList>
-																							<AudioSourceRef Name="stagnantPipeworks_ingame" ID="{B51DB88F-7CD5-41EF-99BB-9A3FCD8388EB}"/>
+																							<AudioSourceRef Name="stagnantPipeworks_ingame" ID="{B262DB4A-D5AE-4C1C-82B7-C74EA7D4BC1E}"/>
 																						</MusicClip>
 																					</Local>
 																				</Reference>
@@ -493,7 +901,7 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>0</YPos>
+																<YPos>35</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
@@ -538,12 +946,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>0</YPos>
+																<YPos>55</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>13.24201</XPos>
-																<YPos>30</YPos>
+																<XPos>13.6027</XPos>
+																<YPos>40</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -585,6 +993,51 @@
 																<XPos>0</XPos>
 																<YPos>-200</YPos>
 																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{72E393BF-9937-4612-B623-39035EA2CB32}" ShortID="939943777">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Highpass"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="teleporterProximity" ID="{4177D240-1BDA-4421-8F57-4D09949F4373}" WorkUnitID="{614859B1-DC72-4D82-8CA1-19CAB6DB328A}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{755D81E4-EB52-49A3-9948-3DE94B3E7C4F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>60</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>22.09197</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>49.86474</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>100</XPos>

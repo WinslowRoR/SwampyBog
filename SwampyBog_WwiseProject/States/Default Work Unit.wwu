@@ -14,7 +14,7 @@
 					<ChildrenList>
 						<State Name="None" ID="{6D13C7BA-16CF-4104-BBF2-48D677454B8A}"/>
 						<State Name="ScarletDrizzle" ID="{2EBA0AAB-1F90-49CA-B45D-48E8339A96F8}"/>
-						<State Name="swampyBog_BossSong" ID="{982610DA-B235-4B77-94CD-2E1AB82C49B5}"/>
+						<State Name="BossSong" ID="{982610DA-B235-4B77-94CD-2E1AB82C49B5}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Music_system" ID="{96F5427A-E212-4455-8C2E-BDFBF84BF7A4}">

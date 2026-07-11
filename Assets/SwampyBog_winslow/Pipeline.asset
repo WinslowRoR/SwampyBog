@@ -31,7 +31,7 @@ MonoBehaviour:
   - {fileID: -8021850872400835799}
   - {fileID: 5191858684817287241}
   - {fileID: 9133147412832584174}
-  QuickAccess: 0
+  QuickAccess: 1
   manifest: {fileID: 11400000, guid: 6bf189bde340651429cc3ad72dd4e5ec, type: 2}
 --- !u!114 &501683521512094284
 MonoBehaviour:
@@ -63,7 +63,7 @@ MonoBehaviour:
   m_Name: StageAssetBundles
   m_EditorClassIdentifier: 
   Active: 1
-  AssetBundleBuildOptions: 1
+  AssetBundleBuildOptions: 256
   buildTarget: 5
   recurseDirectories: 0
   simulate: 0

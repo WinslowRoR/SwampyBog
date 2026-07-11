@@ -1,11 +1,14 @@
 ManifestFileVersion: 0
-CRC: 4260905688
+CRC: 2923791178
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: swampybog_winslowassets
+      Name: runtimelopassetbundle
       Dependencies: {}
     Info_1:
+      Name: swampybog_winslowassets
+      Dependencies: {}
+    Info_2:
       Name: swampybog_winslowscene
       Dependencies:
         Dependency_0: swampybog_winslowassets

@@ -21,23 +21,23 @@ MonoBehaviour:
   isOfflineScene: 0
   stageOrder: 4
   requiredExpansion: {fileID: 0}
-  nameToken: Stagnant Pipeworks
-  subtitleToken: Waste Gardens
-  previewTexture: {fileID: 0}
+  nameToken: SWAMPYBOG_WINSLOW_TITLE
+  subtitleToken: SWAMPYBOG_WINSLOW_SUBTITLE
+  previewTexture: {fileID: 2800000, guid: 9ac15306041011d4485b04a4dc4780df, type: 3}
   previewTextureReference:
     m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
-  portalMaterial: {fileID: 0}
+  portalMaterial: {fileID: 2100000, guid: e4065c73d1b97764caa6a4a2c472adc4, type: 2}
   portalMaterialReference:
     m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
-  portalSelectionMessageString: WS_SWAMPYBOG_BAZAAR_SEER_SWAMPYBOG
+  portalSelectionMessageString: SWAMPYBOG_WINSLOW_BAZAAR_SEER
   filterOutOfBazaar: 0
   shouldIncludeInLogbook: 1
-  loreToken: WS_SWAMPYBOG_MAP_SWAMPYBOG_0
-  dioramaPrefab: {fileID: 0}
+  loreToken: SWAMPYBOG_WINSLOW_LORE
+  dioramaPrefab: {fileID: 1837834084002542350, guid: 70e01dc06044662489914e7f976f9712, type: 3}
   dioramaPrefabAddress:
     m_AssetGUID: 
     m_SubObjectName: 
@@ -57,7 +57,7 @@ MonoBehaviour:
   loopedDestinationsGroup: {fileID: 0}
   shouldUpdateSceneCollectionAfterLooping: 0
   isLockedBeforeLooping: 0
-  loopedSceneDef: {fileID: 0}
+  loopedSceneDef: {fileID: 11400000, guid: bceb3157017f33f4f8acb313af03d38d, type: 2}
   destinations: []
   preferredPortalPrefab: {fileID: 0}
   portalPrefabAddress:

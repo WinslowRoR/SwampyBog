@@ -1,0 +1,19 @@
+{
+	"strings": {
+		"SWAMPYBOG_WINSLOW_TITLE": "Stagnant Pipeworks",
+		"SWAMPYBOG_WINSLOW_SUBTITLE": "Waste Gardens",
+		"SWAMPYBOG_WINSLOW_BAZAAR_SEER": "<style=cWorldEvent>You dream of misplaced architecture.</style>",
+		"SWAMPYBOG_WINSLOW_LORE": "<style=cMono>$ Log extract 024_24XX_1A\n$ Extracting... Done!\n$ Translating... Done!\n$ Outputting translated text..</style>\n\nLOG 024: THE NETWORK GUARDIAN\n\nWe took it down... we... we actually took it down? This... this golem, the likes of which we'd never seen before. Teddy said (or I guess, shouted, as we scrambled around the swamp looking for cover) that it was the same material as the titans and colossi. Same biology, same family, same everything. But it wouldn't take a weirdo like him to tell you that this one was nothing like we'd seen before. Two cannons on its shoulders, each aiming independently, tracking our movements perfectly. This... deep, bellowing roar that shook us all to our core, and made the ground beneath us tremble And, God, those claws. It took bites out of the earth like it was nothing, and used the very same clods of dirt to bombard our group. Kiley placed a good few rounds into what I can only assume is its head- and with a thump- it shook the ground one last time. \n\nI'm not even sure it's dead, honestly. It isn't moving, but it didn't explode as it fell like the golems we've seen before. \n\nWe're safe for now, but... I can't shake the feeling that this isn't over. End log.\n\n<style=cMono>$ Log output complete!</style>",
+
+		"SWAMPYBOG_WINSLOW_UNLOCKABLE": "Environment Log: Stagnant Pipeworks",
+
+		"SWAMPYBOGNIGHT_WINSLOW_TITLE": "Sleeping Hollows",
+		"SWAMPYBOGNIGHT_WINSLOW_SUBTITLE": "Glowing Marshland",
+		"SWAMPYBOGNIGHT_WINSLOW_BAZAAR_SEER": "<style=cWorldEvent>You dream of dark tunnels.</style>",
+		"SWAMPYBOGNIGHT_WINSLOW_LORE": "<style=cMono>$ Log extract 029_24XX_3B; 030_24XX_2F\n$ Merging logs into one file... Done!\n$ Extracting... Done!\n$ Translating... Done!\n$ Outputting translated text..\n</style>\nLOG 029: FOLLOWED \n\nWe were followed back to camp by that goddamn golem, and a battalion of Lemurians in tow. Jesus, I <i>knew</i> we should've hung around! I knew it wasn't dead! But, <i>nooooo!</i> As we were walking back to camp, I was talking to Kiley about.. well, everything we did... and we knew it was wrong, and we knew we'd regret it, but I didn't realise our retribution would be like, 4 hours later! I didn't even see Teddy walk back with us after all that.. we were out for a long while after we took that golem down, but.. surely we'd notice that we lost an entire member of the crew? God, I hope tha-\n\n*large explosion from the inside of the camp*\n\nOh, crap! End log! \n\nLOG 030: GODDAMMIT, TEDDY \n\nWell, Teddy <i>did</i> come back. About 3 hours ago. Slipped in the back of our settlement so nobody would notice, the little weasel. And, trudging behind him, one of the CANNONS off the back of that stupid golem we thought we killed! How the hell did he manage to bring that boulder back without any of us noticing!? Oh, and- that explosion at the end of the last log? That was the cannon. Punching a hole straight through the wall of that sad little room he calls a workshop! My bets are hedged on the golem having some kind of... body... tracking... thing? God, I don't know, but it's not important now. I'll be back once we've sorted this mess out. End log.\n\n<style=cMono>$ Log output complete!</style>",
+
+		"SWAMPYBOGNIGHT_WINSLOW_UNLOCKABLE": "Environment Log: Sleeping Hollows",
+
+		
+	}
+}

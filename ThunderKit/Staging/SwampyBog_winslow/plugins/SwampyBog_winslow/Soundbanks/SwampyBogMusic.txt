@@ -19,15 +19,19 @@ State	ID	Name	State Group			Notes
 	2607556080	Menu	Music_system			
 	97421041	ScarletDrizzle	SwampyBog_gameplaySongChoice			
 	748895195	None	SwampyBog_gameplaySongChoice			
-	3086485471	swampyBog_BossSong	SwampyBog_gameplaySongChoice			
+	833170957	BossSong	SwampyBog_gameplaySongChoice			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	151362964	playerHealth			\Default Work Unit\playerHealth	
+	1924079656	teleporterProximity			\Default Work Unit\teleporterProximity	
 	3729143042	Volume_MSX			\Default Work Unit\Volume_MSX	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	525922944	ScarletDrizzle	C:\Users\gonto\OneDrive\Dokumenty\Tacet Library\Saves\Unity Project\SwampyBog\SwampyBog_WwiseProject\.cache\Windows\SFX\stagnantPipeworks_ingame_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\SwampyBog_Music_System\GameplaySongChoice\ScarletDrizzle\ScarletDrizzle\ScarletDrizzle		17784
+	208180293	BossSongStart	C:\Users\gonto\OneDrive\Dokumenty\Tacet Library\Saves\Unity Project\SwampyBog\SwampyBog_WwiseProject\.cache\Windows\SFX\stagnantPipeworksBossStart_11703E61.wem		\Interactive Music Hierarchy\Default Work Unit\SwampyBog_Music_System\BossSongChoice\BossSong\BossSongStart\BossSongStart		175021
+	296031441	BossSongEnd	C:\Users\gonto\OneDrive\Dokumenty\Tacet Library\Saves\Unity Project\SwampyBog\SwampyBog_WwiseProject\.cache\Windows\SFX\stagnantPipeworksBossEnd_11703E61.wem		\Interactive Music Hierarchy\Default Work Unit\SwampyBog_Music_System\BossSongChoice\BossSongEnd\BossSongEnd\BossSongEnd		200003
+	385907508	BossSongLoop	C:\Users\gonto\OneDrive\Dokumenty\Tacet Library\Saves\Unity Project\SwampyBog\SwampyBog_WwiseProject\.cache\Windows\SFX\stagnantPipeworksBossLoop_11703E61.wem		\Interactive Music Hierarchy\Default Work Unit\SwampyBog_Music_System\BossSongChoice\BossSong\BossSongLoop\BossSongLoop		3744886
+	525922944	ScarletDrizzle	C:\Users\gonto\OneDrive\Dokumenty\Tacet Library\Saves\Unity Project\SwampyBog\SwampyBog_WwiseProject\.cache\Windows\SFX\stagnantPipeworks_ingame_11703E61.wem		\Interactive Music Hierarchy\Default Work Unit\SwampyBog_Music_System\GameplaySongChoice\ScarletDrizzle\ScarletDrizzle\ScarletDrizzle		35021
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	525922944	ScarletDrizzle	C:\Users\gonto\OneDrive\Dokumenty\Tacet Library\Saves\Unity Project\SwampyBog\SwampyBog_WwiseProject\.cache\Windows\SFX\stagnantPipeworks_ingame_FBC78EF0.wem	525922944.wem	\Interactive Music Hierarchy\Default Work Unit\SwampyBog_Music_System\GameplaySongChoice\ScarletDrizzle\ScarletDrizzle\ScarletDrizzle	
+	525922944	ScarletDrizzle	C:\Users\gonto\OneDrive\Dokumenty\Tacet Library\Saves\Unity Project\SwampyBog\SwampyBog_WwiseProject\.cache\Windows\SFX\stagnantPipeworks_ingame_11703E61.wem	525922944.wem	\Interactive Music Hierarchy\Default Work Unit\SwampyBog_Music_System\GameplaySongChoice\ScarletDrizzle\ScarletDrizzle\ScarletDrizzle	
 

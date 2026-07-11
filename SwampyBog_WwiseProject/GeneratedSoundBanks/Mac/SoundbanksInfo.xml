@@ -9,20 +9,65 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="186958281" Type="User" Language="SFX" Hash="{7C896066-3AC6-25D6-4AA1-A87E883666BE}">
+		<SoundBank Id="186958281" Type="User" Language="SFX" Hash="{B8D7A484-9163-A1B9-FDAF-A6B8C11FB09C}">
 			<ShortName>SwampyBogMusic</ShortName>
 			<Path>SwampyBogMusic.bnk</Path>
 			<Media>
+				<File Id="104947156" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>stagnantPipeworksBossStart2.wav</ShortName>
+					<CachePath>SFX/stagnantPipeworksBossStart2_11703E61.wem</CachePath>
+				</File>
+				<File Id="296031441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>stagnantPipeworksBossEnd.wav</ShortName>
+					<CachePath>SFX/stagnantPipeworksBossEnd_11703E61.wem</CachePath>
+				</File>
+				<File Id="385907508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>stagnantPipeworksBossLoop.wav</ShortName>
+					<CachePath>SFX/stagnantPipeworksBossLoop_11703E61.wem</CachePath>
+				</File>
 				<File Id="525922944" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>stagnantPipeworks_ingame.wav</ShortName>
 					<Path>Media/525922944.wem</Path>
-					<CachePath>SFX/stagnantPipeworks_ingame_FBC78EF0.wem</CachePath>
-					<PrefetchSize>17784</PrefetchSize>
+					<CachePath>SFX/stagnantPipeworks_ingame_11703E61.wem</CachePath>
+					<PrefetchSize>35021</PrefetchSize>
+				</File>
+				<File Id="1070652195" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>stagnantPipeworksBossLoop2.wav</ShortName>
+					<CachePath>SFX/stagnantPipeworksBossLoop2_11703E61.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="2356596639" Name="SwampyBog_Pause_Music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="580146960"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1654822869" Id="833170957"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="655265632"/>
+											<MediaRefs>
+												<MediaRef Id="104947156"/>
+												<MediaRef Id="385907508"/>
+												<MediaRef Id="1070652195"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1654822869" Id="833170957"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="2044049779"/>
+											<MediaRefs>
+												<MediaRef Id="296031441"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="792781730" Id="89505537"/>
 							<Children>
@@ -39,6 +84,35 @@
 				<Event Id="937343755" Name="SwampyBog_Play_Music_System" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="580146960"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1654822869" Id="833170957"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="655265632"/>
+											<MediaRefs>
+												<MediaRef Id="104947156"/>
+												<MediaRef Id="385907508"/>
+												<MediaRef Id="1070652195"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1654822869" Id="833170957"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="2044049779"/>
+											<MediaRefs>
+												<MediaRef Id="296031441"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="792781730" Id="89505537"/>
 							<Children>
 								<SwitchContainer>
@@ -53,6 +127,35 @@
 				</Event>
 				<Event Id="781157024" Name="SwampyBog_Unpause_Music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="792781730" Id="580146960"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1654822869" Id="833170957"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="655265632"/>
+											<MediaRefs>
+												<MediaRef Id="104947156"/>
+												<MediaRef Id="385907508"/>
+												<MediaRef Id="1070652195"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1654822869" Id="833170957"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="549431000" Id="2044049779"/>
+											<MediaRefs>
+												<MediaRef Id="296031441"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="792781730" Id="89505537"/>
 							<Children>
@@ -69,6 +172,7 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="151362964" Name="playerHealth"/>
+				<GameParameter Id="1924079656" Name="teleporterProximity"/>
 				<GameParameter Id="3729143042" Name="Volume_MSX"/>
 			</GameParameters>
 			<StateGroups>
@@ -92,12 +196,12 @@
 					<States>
 						<State Id="97421041" Name="ScarletDrizzle"/>
 						<State Id="748895195" Name="None"/>
-						<State Id="3086485471" Name="swampyBog_BossSong"/>
+						<State Id="833170957" Name="BossSong"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{30C71787-A324-C42B-7DE4-9EB808935265}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9114E0EE-6BA6-0400-CC3D-FE1AE96C4DE7}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -112,6 +216,7 @@
 			<GameParameters>
 				<GameParameter Id="151362964" Name="playerHealth"/>
 				<GameParameter Id="1010989040" Name="teleporterPlayerStatus"/>
+				<GameParameter Id="1924079656" Name="teleporterProximity"/>
 				<GameParameter Id="3673881719" Name="Volume_SFX"/>
 				<GameParameter Id="3695994288" Name="Volume_Master"/>
 				<GameParameter Id="3729143042" Name="Volume_MSX"/>
@@ -137,11 +242,50 @@
 					<States>
 						<State Id="97421041" Name="ScarletDrizzle"/>
 						<State Id="748895195" Name="None"/>
-						<State Id="3086485471" Name="swampyBog_BossSong"/>
+						<State Id="833170957" Name="BossSong"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
+		<SoundBank Id="1633116420" Type="User" Language="SFX" Hash="{B6EC716F-E49D-1961-4B17-8C6544916CFD}">
+			<ShortName>SwampyBogSounds</ShortName>
+			<Path>SwampyBogSounds.bnk</Path>
+			<Media>
+				<File Id="843857764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SwampyBog_Ambience.wav</ShortName>
+					<CachePath>SFX/SwampyBog_Ambience_0F487037.wem</CachePath>
+				</File>
+				<File Id="1002227621" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PipeworksAmbienceNight.wav</ShortName>
+					<CachePath>SFX/PipeworksAmbienceNight_11703E61.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="630866258" Name="SwampyBog_Ambience_Start" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="843857764"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1557897226" Name="SwampyBog_Ambience_Stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="843857764"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2728836222" Name="SwampyBog_AmbienceNight_Start" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1002227621"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1929284510" Name="SwampyBog_AmbienceNight_Stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="1002227621"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AD319A19-03C0-15E4-D38D-081F8E6A3FBA}</FileHash>
+	<FileHash>{8213379D-63FB-EC22-8627-B575A6A47966}</FileHash>
 </SoundBanksInfo>
